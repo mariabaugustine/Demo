@@ -1,0 +1,13 @@
+[t92]
+FileName1=t92.htm
+URL1=http://detectportal.firefox.com/canonical.html
+Total=2
+RequestHeaderFile=t92_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t92_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_92.xml
+FileName2=t92_cart.html
+URL2=https://www.tastynibbles.in/cart.js?_=1708667591625
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,9 @@
+GET /v1/checkout/public?traffic_env=canary&build=d43430ddaebbedea49f590c6812d6bc41f57f7bd&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live HTTP/1.1
+Referer: https://www.tastynibbles.in/
+Accept-Language: en-GB,en;q=0.5
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: api.razorpay.com
+

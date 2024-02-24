@@ -1,0 +1,17 @@
+[t48]
+FileName1=t48.html
+URL1=http://ocsp.r2m02.amazontrust.com/
+Total=4
+RequestHeaderFile=t48_RequestHeader.txt
+RequestBodyFile=t48_RequestBody.txt
+ResponseHeaderFile=t48_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_48.xml
+FileName2=t48_success.txt
+URL2=http://detectportal.firefox.com/success.txt?ipv4
+FileName3=t48_Brand_logo_Tasty_nibbles-01_575ef6d1-1653-4b3c-b8fe-e3fb05f76ed1_32x32.webp
+URL3=https://www.tastynibbles.in/cdn/shop/files/Brand_logo_Tasty_nibbles-01_575ef6d1-1653-4b3c-b8fe-e3fb05f76ed1_32x32.png?v=1652345831
+FileName4=t48_magic-checkout.html
+URL4=https://checkout.razorpay.com/v1/magic-checkout.js
+[ProtocolInfo]
+ProtocolId=QTWeb

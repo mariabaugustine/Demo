@@ -1,0 +1,13 @@
+[t24]
+SnapshotXmlFile=snapshot_24.xml
+ContentType=application/json
+StepName=Custom Request: search
+Total=1
+FileName1=t24.json
+RequestHeaderFile=t24_RequestHeader.txt
+ResponseHeaderFile=t24_ResponseHeader.txt
+RawStepEndTime=1708663983806
+RawStepName=search
+RequestBodyFile=t24_RequestBody.txt
+RawStepStartTime=1708663983561
+URL1=https://www.bing.com/api/shopping/v1/item/search?appid=9A9BEDA6F8ED193BD5F4CF15F865B491175D3D8F&mkt=en-us&uapimkt=en-us&features=enuapimkt

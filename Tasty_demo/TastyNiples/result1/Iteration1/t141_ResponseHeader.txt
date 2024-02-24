@@ -1,0 +1,12 @@
+HTTP/2.0 204
+Status: 204
+access-control-allow-origin: *
+date: Fri, 23 Feb 2024 06:57:44 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+content-type: text/plain
+cross-origin-resource-policy: cross-origin
+server: Golfe2
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

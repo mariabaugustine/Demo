@@ -1,0 +1,15 @@
+[t35]
+FileName1=t35.html
+URL1=https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch
+Total=3
+RequestHeaderFile=t35_RequestHeader.txt
+RequestBodyFile=t35_RequestBody.txt
+ResponseHeaderFile=t35_ResponseHeader.txt
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_35.xml
+FileName2=t35_js.html
+URL2=https://www.googletagmanager.com/gtag/js?id=G-WCN3C8KG6R
+FileName3=t35_gtm.html
+URL3=https://www.googletagmanager.com/gtm.js?id=GTM-5N29RKV
+[ProtocolInfo]
+ProtocolId=QTWeb

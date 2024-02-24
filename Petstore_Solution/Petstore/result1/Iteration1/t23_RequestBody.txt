@@ -1,0 +1,4 @@
+"{"ClientContext":{"AppInfoClientName":"Edge","BuildVersion":"121.0.2277.128","EnabledServiceFl"
+"ights":"","JSVersion":""},"EventTime":1.708663423808e+12,"EventType":"EdgeTrigger","Impression"
+"Id":"","JsonData":"{\"EdgeTrigger\":\"msEdgeShoppingPdpReached\"}","LogLevel":"Information","M"
+"essage":""}"

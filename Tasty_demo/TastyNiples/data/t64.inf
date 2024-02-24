@@ -1,0 +1,15 @@
+[t64]
+FileName1=t64.html
+URL1=http://ocsp.r2m03.amazontrust.com/
+Total=3
+RequestHeaderFile=t64_RequestHeader.txt
+RequestBodyFile=t64_RequestBody.txt
+ResponseHeaderFile=t64_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_64.xml
+FileName2=t64_success.txt
+URL2=http://detectportal.firefox.com/success.txt?ipv4
+FileName3=t64_checkout-frame.modern.html
+URL3=https://checkout-static-next.razorpay.com/build/c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d/checkout-frame.modern.js
+[ProtocolInfo]
+ProtocolId=QTWeb

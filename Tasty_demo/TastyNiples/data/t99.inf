@@ -1,0 +1,13 @@
+[t99]
+FileName1=t99.htm
+URL1=https://app.engati.com/webchat_parameters/whatsapp-config/c1a778d0cb1e42f1
+Total=2
+RequestHeaderFile=t99_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t99_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_99.xml
+FileName2=t99_whatsapp_icon.png
+URL2=https://branding-resources.s3.ap-south-1.amazonaws.com/bot_files/prod/whatsapp_icon.png
+[ProtocolInfo]
+ProtocolId=QTWeb

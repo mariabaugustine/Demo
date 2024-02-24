@@ -1,0 +1,10 @@
+OPTIONS /api/report?cat=bingbusiness HTTP/1.1
+Host: bzib.nelreports.net
+Connection: keep-alive
+Origin: https://business.bing.com
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+

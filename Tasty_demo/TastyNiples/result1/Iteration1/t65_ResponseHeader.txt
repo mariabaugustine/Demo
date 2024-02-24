@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: application/ocsp-response
+Content-Length: 5
+Connection: keep-alive
+Cache-Control: max-age=600
+Date: Fri, 23 Feb 2024 06:57:06 GMT
+Server: ECAcc (sgc/5703)
+X-Cache: Miss from cloudfront
+Via: 1.1 40c1ab430a24c7f7e45ddf358c27219e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P2
+X-Amz-Cf-Id: EquRe07dnDv40iYUSxfiTga8WTeCoaN0SXzIAafXZzaMUrq-L0lBAA==
+

@@ -1,0 +1,13 @@
+[t117]
+FileName1=t117.htm
+URL1=https://app.engati.com/webchat_parameters/whatsapp-config/c1a778d0cb1e42f1
+Total=2
+RequestHeaderFile=t117_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t117_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_117.xml
+FileName2=t117_cart.html
+URL2=https://www.tastynibbles.in/cart.js?_=1708667600646
+[ProtocolInfo]
+ProtocolId=QTWeb

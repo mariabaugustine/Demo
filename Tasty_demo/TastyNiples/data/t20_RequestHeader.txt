@@ -1,0 +1,13 @@
+POST / HTTP/1.1
+Host: e1.o.lencr.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 85
+Sec-GPC: 1
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+

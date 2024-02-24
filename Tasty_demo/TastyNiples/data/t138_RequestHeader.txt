@@ -1,0 +1,16 @@
+POST /mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667650409&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=1&dp=%2F&dt=Tasty%20Nibbles%20-%20Ready%20to%20Eat%2C%20Canned%20Tuna%2C%20Fish%20Curries%20and%20more&dl=https%3A%2F%2Fwww.tastynibbles.in%2F&sid=1708667531&sct=1&seg=1&dr=https%3A%2F%2Fwww.tastynibbles.in%2Faccount%2Fregister&en=page_view&_ee=1&tfd=9894 HTTP/1.1
+Host: www.merchant-center-analytics.goog
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Origin: https://www.tastynibbles.in
+DNT: 1
+Sec-GPC: 1
+Connection: keep-alive
+Referer: https://www.tastynibbles.in/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+Content-Length: 0
+

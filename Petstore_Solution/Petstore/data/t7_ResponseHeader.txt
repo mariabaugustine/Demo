@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Length: 806543
+Content-Type: application/json
+Last-Modified: Thu, 22 Feb 2024 21:54:07 GMT
+ETag: 0x8DC33F0CB021E56
+x-ms-request-id: 8ab64e6a-e01e-0059-610e-665da7000000
+x-ms-version: 2009-09-19
+x-ms-lease-status: unlocked
+x-ms-blob-type: BlockBlob
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+X-MSEdge-Ref: Ref A: F08D77CBB0B0420F8400816BC680682F Ref B: SIN221080713029 Ref C: 2024-02-23T04:42:30Z
+Date: Fri, 23 Feb 2024 04:42:30 GMT
+Connection: keep-alive
+Alt-Svc: h3=":443"; ma=93600
+X-CDN-TraceID: 0.460a2c17.1708663350.82d796f
+

@@ -1,0 +1,11 @@
+[t168]
+FileName1=t168_suggest.json
+URL1=https://www.tastynibbles.in/search/suggest.json?q=pickl&resources[type]=product%2Carticle&resources[limit]=4&resources[options][unavailable_products]=last&resources[options][fields]=title%2Cproduct_type%2Cvariants.title%2Cvendor
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_168.xml
+RequestHeaderFile=t168_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t168_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

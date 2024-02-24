@@ -1,0 +1,15 @@
+[t62]
+FileName1=t62_public.htm
+URL1=https://api.razorpay.com/v1/checkout/public?traffic_env=production&build=c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live&session_token=F5A99A5C7D02C1AE8EA0C647BF6D40CCFD7A42075F4FB0F2DF696C86DB77C07DFDE16090AE7B18B6AF30D531812CF90B332AB48458F8A363D83CC26C1C70921218AF10FABB532DD4C8ACA55DEB47E0ED2A4BCF8515F4E380B653735F52D8202289F5FE77147F18982BB4196099E4FD302D0BC824DE91FD1899747221E2B927884D646BB2A4A44241BBAF607A149520A7BBE9E2
+Total=3
+ContentType=text/html
+SnapshotXmlFile=snapshot_62.xml
+RequestHeaderFile=t62_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t62_ResponseHeader.txt
+FileName2=t62.html
+URL2=https://www.google.co.in/pagead/1p-conversion/378882101/?random=1708667531458&cv=11&fst=1708667531458&bg=ffffff&guid=ON&async=1&gtm=45be42l0za200&gcd=13l3l3l3l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tastynibbles.in%2F&label=y2AaCM-DyPoCELWQ1bQB&tiba=Tasty%20Nibbles%20-%20Ready%20to%20Eat%2C%20Canned%20Tuna%2C%20Fish%20Curries%20and%20more&hn=www.google.com&frm=0&gtm_ee=1&npa=0&pscdl=noapi&auid=1028054568.1708667531&ec_mode=a&data=event%3Dpage_view%3Bpage_path%3D%2F&em=tv.1&gcp=1&sscte=1&ct_cookie_present=1&rfmt=3&fmt=4&ipr=y
+FileName3=t62_css2.css
+URL3=https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap
+[ProtocolInfo]
+ProtocolId=QTWeb

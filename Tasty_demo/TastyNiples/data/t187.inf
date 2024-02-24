@@ -1,0 +1,11 @@
+[t187]
+FileName1=t187_products.json
+URL1=https://www.tastynibbles.in/collections/canned-sardine/products.json?limit=250
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_187.xml
+RequestHeaderFile=t187_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t187_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

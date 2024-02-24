@@ -1,0 +1,13 @@
+[t5]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=application/json
+StepName=Url: ExpandedDomainsFilterGlobal.json
+Total=1
+FileName1=t5.json
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RawStepEndTime=1708663978147
+RawStepName=ExpandedDomainsFilterGlobal.json
+RequestBodyFile=t5_RequestBody.txt
+RawStepStartTime=1708663977793
+URL1=https://www.bing.com/bloomfilterfiles/ExpandedDomainsFilterGlobal.json

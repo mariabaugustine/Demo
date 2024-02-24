@@ -1,0 +1,5 @@
+"[{"age":60056,"body":{"elapsed_time":30065,"method":"GET","phase":"application","protocol":"ht"
+"tp/1.1","referrer":"","sampling_fraction":1.0,"server_ip":"","status_code":0,"type":"abandoned"
+""},"type":"network-error","url":"https://business.bing.com/api/v1/user/token/microsoftgraph?&c"
+"lienttype=edge-omnibox","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/53"
+"7.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"}]"

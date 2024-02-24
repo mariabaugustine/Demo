@@ -1,0 +1,16 @@
+POST /mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667590111&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=2&sid=1708667531&sct=1&seg=1&dl=https%3A%2F%2Fwww.tastynibbles.in%2Faccount%2Flogin%3Freturn_url%3D%252Faccount&dr=https%3A%2F%2Fwww.tastynibbles.in%2F&dt=Account%20%E2%80%93%20Tasty%20Nibbles&en=user_engagement&_et=7917&tfd=9991 HTTP/1.1
+Host: www.merchant-center-analytics.goog
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://www.tastynibbles.in/
+Origin: https://www.tastynibbles.in
+DNT: 1
+Sec-GPC: 1
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+Content-Length: 0
+

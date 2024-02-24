@@ -1,0 +1,13 @@
+[t179]
+FileName1=t179_public.htm
+URL1=https://api.razorpay.com/v1/checkout/public?traffic_env=production&build=c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live&session_token=711256A3FCF7947F52D105CD2D1BF34331B6FE917FD9526CB06FC534B99B71FCB3D3CF4D99E479749D676405176767A86EC37CF5907E176C574B248DC88608F7A6655D41228CA7260215372ADA950071F598F4A59A9AF927FC8FF730EE6EAFC1CCA85FA55D0DC7FC4D1ADC40F9B3DC8F0A15F443F0BC6FB8DF14440B7087CBEA38E286DD22CF3FF9544A07BF63DD3D356132B7
+Total=2
+ContentType=text/html
+SnapshotXmlFile=snapshot_179.xml
+RequestHeaderFile=t179_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t179_ResponseHeader.txt
+FileName2=t179_cart.html
+URL2=https://www.tastynibbles.in/cart.js?discos=true
+[ProtocolInfo]
+ProtocolId=QTWeb

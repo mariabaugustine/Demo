@@ -1,0 +1,13 @@
+[t22]
+SnapshotXmlFile=snapshot_22.xml
+ContentType=application/json
+StepName=Url: find-assets_2
+Total=1
+FileName1=t22.json
+RequestHeaderFile=t22_RequestHeader.txt
+ResponseHeaderFile=t22_ResponseHeader.txt
+RawStepEndTime=1708663983311
+RawStepName=find-assets_2
+RequestBodyFile=t22_RequestBody.txt
+RawStepStartTime=1708663983259
+URL1=https://edge.microsoft.com/entityextractiontemplates/api/v1/assets/find-assets?name=extraction.proactiveProduct.en-us&version=5.*.*&channel=stable&key=d414dd4f9db345fa8003e32adc81b362

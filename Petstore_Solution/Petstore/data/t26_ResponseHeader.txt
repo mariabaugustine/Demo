@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, private
+Content-Type: application/json; charset=utf-8
+Vary: Accept-Encoding
+BingAPIs-Market: en-us
+BingAPIs-TraceId: 26B0150C797F46998FF2D0921192C500
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+X-MSEdge-Ref: Ref A: 26B0150C797F46998FF2D0921192C500 Ref B: SIN221080711031 Ref C: 2024-02-23T04:43:44Z
+Date: Fri, 23 Feb 2024 04:43:44 GMT
+Content-Length: 165
+Connection: keep-alive
+Set-Cookie: _EDGE_S=F=1&SID=1A99626D352B6EE904F9764334796FA4; path=/; httponly; domain=bing.com
+Set-Cookie: _EDGE_V=1; path=/; httponly; expires=Wed, 19-Mar-2025 04:43:44 GMT; domain=bing.com
+Set-Cookie: MUID=2DF72093CDE96BFF003334BDCCBB6A81; samesite=none; path=/; secure; expires=Wed, 19-Mar-2025 04:43:44 GMT; domain=bing.com
+Set-Cookie: MUIDB=2DF72093CDE96BFF003334BDCCBB6A81; path=/; httponly; expires=Wed, 19-Mar-2025 04:43:44 GMT
+Alt-Svc: h3=":443"; ma=93600
+X-CDN-TraceID: 0.050a2c17.1708663424.2109f4f5
+

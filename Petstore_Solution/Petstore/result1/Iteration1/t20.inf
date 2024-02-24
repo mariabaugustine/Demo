@@ -1,0 +1,13 @@
+[t20]
+SnapshotXmlFile=snapshot_20.xml
+ContentType=application/json
+StepName=Custom Request: 3_3
+Total=1
+FileName1=t20.json
+RequestHeaderFile=t20_RequestHeader.txt
+ResponseHeaderFile=t20_ResponseHeader.txt
+RawStepEndTime=1708663983033
+RawStepName=3_3
+RequestBodyFile=t20_RequestBody.txt
+RawStepStartTime=1708663982892
+URL1=https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3

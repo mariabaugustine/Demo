@@ -1,0 +1,13 @@
+HTTP/2.0 200
+Status: 200
+p3p: policyref="https://www.googleadservices.com/pagead/p3p.xml", CP="NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC"
+timing-allow-origin: *
+cross-origin-resource-policy: cross-origin
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+date: Fri, 23 Feb 2024 06:57:34 GMT
+server: cafe
+content-length: 0
+x-xss-protection: 0
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

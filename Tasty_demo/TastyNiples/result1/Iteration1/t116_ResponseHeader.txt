@@ -1,0 +1,21 @@
+HTTP/2.0 200
+Status: 200
+server: gunicorn
+date: Fri, 23 Feb 2024 06:57:33 GMT
+content-type: text/html; charset=utf-8
+content-security-policy: img-src 'self' data: https://*.mozaws.net https://*.webservices.mozgcp.net https://*.google-analytics.com https://profile.accounts.firefox.com https://firefoxusercontent.com https://secure.gravatar.com https://i1.wp.com https://mozillausercontent.com; manifest-src https://support.allizom.org https://support.mozilla.org; form-action 'self' https://accounts.firefox.com https://accounts.stage.mozaws.net; script-src 'self' https://*.mozilla.org https://*.webservices.mozgcp.net https://*.google-analytics.com https://*.googletagmanager.com https://pontoon.mozilla.org https://*.jsdelivr.net; frame-src 'self' https://*.youtube.com; style-src 'self' https://*.webservices.mozgcp.net https://*.jsdelivr.net; font-src 'self' https://*.webservices.mozgcp.net; default-src 'none'; connect-src 'self' https://*.google-analytics.com https://location.services.mozilla.com https://accounts.firefox.com/metrics-flow https://accounts.stage.mozaws.net/metrics-flow https://basket.mozilla.org; media-src 'self' https://*.webservices.mozgcp.net
+x-robots-tag: noodp
+x-frame-options: DENY
+expires: Fri, 23 Feb 2024 06:57:33 GMT
+cache-control: max-age=0, no-cache, no-store, must-revalidate, private
+content-length: 67513
+content-language: en-US
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+cross-origin-opener-policy: same-origin
+x-backend-server: gha-sumo-web-c59795cc7-rr6tf.prod.webservices.mozgcp.net
+set-cookie: session_id=63mgyjurwneml1ruta563xcy0od9pmib; expires=Fri, 22 Mar 2024 06:57:33 GMT; HttpOnly; Max-Age=2419200; Path=/; SameSite=Lax; Secure
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

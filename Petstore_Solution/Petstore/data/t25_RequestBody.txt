@@ -1,0 +1,4 @@
+"{\"ClientContext\":{\"AppInfoClientName\":\"Edge\",\"BuildVersion\":\"121.0.2277.128\",\"Enabl"
+"edServiceFlights\":\"\",\"JSVersion\":\"\"},\"EventTime\":1.708663423808e+12,\"EventType\":\"E"
+"dgeTrigger\",\"ImpressionId\":\"\",\"JsonData\":\"{\\\"EdgeTrigger\\\":\\\"msEdgeShoppingPdpRe"
+"ached\\\"}\",\"LogLevel\":\"Information\",\"Message\":\"\"}"

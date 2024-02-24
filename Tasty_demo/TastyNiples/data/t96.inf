@@ -1,0 +1,17 @@
+[t96]
+FileName1=t96.htm
+URL1=http://detectportal.firefox.com/canonical.html
+Total=4
+RequestHeaderFile=t96_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t96_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_96.xml
+FileName2=t96_cart.html
+URL2=https://www.tastynibbles.in/cart.js?_=1708667591626
+FileName3=t96_5a2dc01fdf22006c0f6dccb9a8c70490.html
+URL3=https://cdn.nfcube.com/5a2dc01fdf22006c0f6dccb9a8c70490.js?shop=tastynibbles.myshopify.com
+FileName4=t96_success.txt
+URL4=http://detectportal.firefox.com/success.txt?ipv4
+[ProtocolInfo]
+ProtocolId=QTWeb

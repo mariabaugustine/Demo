@@ -1,0 +1,17 @@
+[t13]
+FileName1=t13_update.xml
+URL1=https://aus5.mozilla.org/update/6/Firefox/123.0/20240213221259/WINNT_x86_64-msvc-x64/en-GB/release/Windows_NT%252010.0.0.0.19045.3324%2520(x64)/ISET%3ASSE4_2%2CMEM%3A12287/default/default/update.xml?force=1
+Total=4
+ContentType=text/xml
+SnapshotXmlFile=snapshot_13.xml
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t13_ResponseHeader.txt
+FileName2=t13_load_feature-87876fa245af19cbd14aa886ed59c6aa8a27c45d24dcd7a81cf2d2323506233e.html
+URL2=https://www.tastynibbles.in/cdn/shopifycloud/shopify/assets/storefront/load_feature-87876fa245af19cbd14aa886ed59c6aa8a27c45d24dcd7a81cf2d2323506233e.js
+FileName3=t13_features-1c0b396bd4d054b94abae1eb6a1bd6ba47beb35525c57a217c77a862ff06d83f.html
+URL3=https://www.tastynibbles.in/cdn/shopifycloud/shopify/assets/storefront/features-1c0b396bd4d054b94abae1eb6a1bd6ba47beb35525c57a217c77a862ff06d83f.js
+FileName4=t13_preloads.html
+URL4=https://www.tastynibbles.in/checkouts/internal/preloads.js?permanent-domain=tastynibbles.myshopify.com&locale=en-IN
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="12">
+  <HTTPTask id="29" url="ws://ocsp.digicert.com/" ip="152.195.38.76" port="80" client_ip="172.19.19.20" client_port="56162" connectionId="2192" origin="Primary" encodingType="ANSI" startDateTime="2024-02-23T12:26:43.588+05:30" startTime="5265" endTime="6401" blockedTime="0" dnsTime="0" connectTime="0" sendTime="0" waitTime="0" receiveTime="0" sslNegotiateTime="0" responseBodySize="0">
+    <HTTPRequest method="GET">
+      <HTTPHeaders>
+        <HTTPAllHeaders>
+          <HTTPDataSet>
+            <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
+              <ActualData>R0VUIC8gSFRUUC8xLjENCkNvbm5lY3Rpb246IFVwZ3JhZGUNClNlYy1XZWJTb2NrZXQtRXh0ZW5zaW9uczogcGVybWVzc2FnZS1kZWZsYXRlOyBjbGllbnRfbm9fY29udGV4dF90YWtlb3ZlcjsgY2xpZW50X21heF93aW5kb3dfYml0cw0KU2VjLVdlYlNvY2tldC1LZXk6IEdJbWNkNjVCM2dyTmd0d05wZllsYWc9PQ0KU2VjLVdlYlNvY2tldC1WZXJzaW9uOiAxMw0KVXBncmFkZTogd2Vic29ja2V0DQpPcmlnaW46IHdzczovL3B1c2guc2VydmljZXMubW96aWxsYS5jb20vDQpSZWZlcmVyOiBodHRwczovL3d3dy50YXN0eW5pYmJsZXMuaW4vDQpBY2NlcHQtTGFuZ3VhZ2U6IGVuLUdCLGVuO3E9MC41DQpVc2VyLUFnZW50OiBNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0OyBydjoxMjMuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xMjMuMA0KQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlDQpBY2NlcHQ6ICovKg0KQ29ubmVjdGlvbjogS2VlcC1BbGl2ZQ0KSG9zdDogb2NzcC5kaWdpY2VydC5jb20NCg0K</ActualData>
+            </HTTPData>
+          </HTTPDataSet>
+          <IsExternalData>false</IsExternalData>
+        </HTTPAllHeaders>
+      </HTTPHeaders>
+    </HTTPRequest>
+    <HTTPResponse>
+      <contentLenght>0</contentLenght>
+      <HTTPHeaders>
+        <HTTPAllHeaders>
+          <HTTPDataSet>
+            <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
+              <ActualData>SFRUUC8xLjEgMjAwIE9LDQpDb250ZW50LUVuY29kaW5nOiBnemlwDQpBZ2U6IDM2NDkwOQ0KQ29udGVudC1UeXBlOiB0ZXh0L2h0bWwNCkRhdGU6IEZyaSwgMjMgRmViIDIwMjQgMDY6NTY6NDQgR01UDQpFdGFnOiAiNjQzNTk3NWEtMjY3K2d6aXAiDQpMYXN0LU1vZGlmaWVkOiBUdWUsIDExIEFwciAyMDIzIDE3OjIyOjM0IEdNVA0KU2VydmVyOiBFQ0FjYyAoc2djLzU2OEMpDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNClgtQ2FjaGU6IEhJVA0KeC1jb250ZW50LXR5cGUtb3B0aW9uczogbm9zbmlmZg0KeC1mcmFtZS1vcHRpb25zOiBTQU1FT1JJR0lODQp4LXhzcy1wcm90ZWN0aW9uOiAxOyBtb2RlPWJsb2NrDQpDb250ZW50LUxlbmd0aDogMzk0DQpDb25uZWN0aW9uOiBjbG9zZQ0KDQo=</ActualData>
+            </HTTPData>
+          </HTTPDataSet>
+          <IsExternalData>false</IsExternalData>
+        </HTTPAllHeaders>
+      </HTTPHeaders>
+      <HTTPBody>
+        <HTTPDataSet>
+          <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
+            <ActualData>PCFET0NUWVBFIGh0bWw+CjxodG1sPgo8aGVhZD4KPHRpdGxlPldlbGNvbWUgdG8gbmdpbnghPC90aXRsZT4KPHN0eWxlPgpodG1sIHsgY29sb3Itc2NoZW1lOiBsaWdodCBkYXJrOyB9CmJvZHkgeyB3aWR0aDogMzVlbTsgbWFyZ2luOiAwIGF1dG87CmZvbnQtZmFtaWx5OiBUYWhvbWEsIFZlcmRhbmEsIEFyaWFsLCBzYW5zLXNlcmlmOyB9Cjwvc3R5bGU+CjwvaGVhZD4KPGJvZHk+CjxoMT5XZWxjb21lIHRvIG5naW54ITwvaDE+CjxwPklmIHlvdSBzZWUgdGhpcyBwYWdlLCB0aGUgbmdpbnggd2ViIHNlcnZlciBpcyBzdWNjZXNzZnVsbHkgaW5zdGFsbGVkIGFuZAp3b3JraW5nLiBGdXJ0aGVyIGNvbmZpZ3VyYXRpb24gaXMgcmVxdWlyZWQuPC9wPgoKPHA+Rm9yIG9ubGluZSBkb2N1bWVudGF0aW9uIGFuZCBzdXBwb3J0IHBsZWFzZSByZWZlciB0bwo8YSBocmVmPSJodHRwOi8vbmdpbngub3JnLyI+bmdpbngub3JnPC9hPi48YnIvPgpDb21tZXJjaWFsIHN1cHBvcnQgaXMgYXZhaWxhYmxlIGF0CjxhIGhyZWY9Imh0dHA6Ly9uZ2lueC5jb20vIj5uZ2lueC5jb208L2E+LjwvcD4KCjxwPjxlbT5UaGFuayB5b3UgZm9yIHVzaW5nIG5naW54LjwvZW0+PC9wPgo8L2JvZHk+CjwvaHRtbD4K</ActualData>
+          </HTTPData>
+        </HTTPDataSet>
+        <IsExternalData>false</IsExternalData>
+      </HTTPBody>
+    </HTTPResponse>
+  </HTTPTask>
+</HTTPSnapshot>

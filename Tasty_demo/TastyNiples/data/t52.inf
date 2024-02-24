@@ -1,0 +1,13 @@
+[t52]
+FileName1=t52.html
+URL1=http://ocsp.r2m02.amazontrust.com/
+Total=2
+RequestHeaderFile=t52_RequestHeader.txt
+RequestBodyFile=t52_RequestBody.txt
+ResponseHeaderFile=t52_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_52.xml
+FileName2=t52_success.txt
+URL2=http://detectportal.firefox.com/success.txt?ipv4
+[ProtocolInfo]
+ProtocolId=QTWeb

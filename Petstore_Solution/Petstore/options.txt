@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LoadRunner\Petstore_Solution\Petstore
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\loadrunner\petstore_solution\petstore\\logfile.log
+d:\loadrunner\petstore_solution\petstore\\combined_Petstore.c
+d:\loadrunner\petstore_solution\petstore\\pre_cci.c

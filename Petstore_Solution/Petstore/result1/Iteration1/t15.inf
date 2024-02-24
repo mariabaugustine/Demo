@@ -1,0 +1,13 @@
+[t15]
+SnapshotXmlFile=snapshot_15.xml
+ContentType=application/json
+StepName=Custom Request: update_3
+Total=1
+FileName1=t15.json
+RequestHeaderFile=t15_RequestHeader.txt
+ResponseHeaderFile=t15_ResponseHeader.txt
+RawStepEndTime=1708663981359
+RawStepName=update_3
+RequestBodyFile=t15_RequestBody.txt
+RawStepStartTime=1708663981217
+URL1=https://edge.microsoft.com/componentupdater/api/v1/update

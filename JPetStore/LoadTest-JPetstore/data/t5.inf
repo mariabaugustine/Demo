@@ -1,0 +1,15 @@
+[t5]
+FileName1=t5.htm
+URL1=https://petstore.octoperf.com/actions/Catalog.action;jsessionid=24D9509433CBA417E560DD4CE8DAE35C
+Total=3
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=t5_RequestBody.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+FileName2=t5_fish2.gif
+URL2=https://petstore.octoperf.com/images/fish2.gif
+FileName3=t5_fish1.gif
+URL3=https://petstore.octoperf.com/images/fish1.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

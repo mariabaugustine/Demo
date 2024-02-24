@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 23 Feb 2024 06:57:33 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 173
+Connection: keep-alive
+access-control-allow-origin: *
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: frame-ancestors www.messenger.com www.facebook.com
+Content-Security-Policy: upgrade-insecure-requests
+Content-Security-Policy: script-src 'self' 'unsafe-eval' 'unsafe-inline' *.engati.com www.googletagmanager.com connect.facebook.net www.google-analytics.com ajax.googleapis.com cdnjs.cloudflare.com momentjs.com *.stripe.com branding-resources.s3.ap-south-1.amazonaws.com www.google.com www.gstatic.com www.dukelearntoprogram.com cdn.mxpnl.com meet.jit.si *.clarity.ms www.googleadservices.com documentcloud.adobe.com sc.lfeeder.com *.hotjar.com app.posthog.com
+

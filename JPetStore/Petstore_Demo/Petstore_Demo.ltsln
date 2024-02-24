@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0
+Project("94E3BEAC-7ACB-4F0C-BD18-80ECEC93687A") = "JPetStore", "JPetStore\JPetStore.usr", "94E3BEAC-7ACB-4F0C-BD18-80ECEC93687A"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XExvYWRSdW5uZXJcSlBldFN0b3JlXFBldHN0b3JlX0RlbW9cSlBldFN0b3JlXEpQZXRTdG9yZS51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+RDpcTG9hZFJ1bm5lclxKUGV0U3RvcmVcUGV0c3RvcmVfRGVtb1xKUGV0U3RvcmVcSlBldFN0b3JlLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjQtMDItMjNUMTQ6Mjc6NTYuNjA3MDAxMyswNTozMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("1619723D-9C75-4C39-B401-AA9B8751A336") = "LoadTest-JPetstore", "..\LoadTest-JPetstore\LoadTest-JPetstore.usr", "1619723D-9C75-4C39-B401-AA9B8751A336"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XExvYWRSdW5uZXJcSlBldFN0b3JlXExvYWRUZXN0LUpQZXRzdG9yZVxMb2FkVGVzdC1KUGV0c3RvcmUudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPkQ6XExvYWRSdW5uZXJcSlBldFN0b3JlXExvYWRUZXN0LUpQZXRzdG9yZVxMb2FkVGVzdC1KUGV0c3RvcmUudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyNC0wMi0yM1QyMjoxNzo1Ny4yNDAxMjM4KzA1OjMwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		94E3BEAC-7ACB-4F0C-BD18-80ECEC93687A.Debug|Any CPU.Build.0 = Debug|Any CPU
+		94E3BEAC-7ACB-4F0C-BD18-80ECEC93687A.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		94E3BEAC-7ACB-4F0C-BD18-80ECEC93687A.Release|Any CPU.Build.0 = Release|Any CPU
+		94E3BEAC-7ACB-4F0C-BD18-80ECEC93687A.Release|Any CPU.ActiveCfg = Release|Any CPU
+		1619723D-9C75-4C39-B401-AA9B8751A336.Debug|Any CPU.Build.0 = Debug|Any CPU
+		1619723D-9C75-4C39-B401-AA9B8751A336.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		1619723D-9C75-4C39-B401-AA9B8751A336.Release|Any CPU.Build.0 = Release|Any CPU
+		1619723D-9C75-4C39-B401-AA9B8751A336.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

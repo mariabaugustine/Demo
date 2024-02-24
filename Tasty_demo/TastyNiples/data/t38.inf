@@ -1,0 +1,17 @@
+[t38]
+FileName1=t38.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/6d395291-0929-47cd-8e97-26911ba72032
+Total=4
+RequestHeaderFile=t38_RequestHeader.txt
+RequestBodyFile=t38_RequestBody.txt
+ResponseHeaderFile=t38_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_38.xml
+FileName2=t38_js.html
+URL2=https://www.googletagmanager.com/gtag/js?id=G-WCN3C8KG6R&l=dataLayer&cx=c
+FileName3=t38_destination.html
+URL3=https://www.googletagmanager.com/gtag/destination?id=AW-378882101&l=dataLayer&cx=c
+FileName4=t38_destination.html
+URL4=https://www.googletagmanager.com/gtag/destination?id=MC-Y41CDBPZ5C&l=dataLayer&cx=c
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LoadRunner\JPetStore\Petstore_Demo\JPetStore
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\loadrunner\jpetstore\petstore_demo\jpetstore\\logfile.log
+d:\loadrunner\jpetstore\petstore_demo\jpetstore\\combined_JPetStore.c
+d:\loadrunner\jpetstore\petstore_demo\jpetstore\\pre_cci.c

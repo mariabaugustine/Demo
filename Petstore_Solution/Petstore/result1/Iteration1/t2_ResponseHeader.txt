@@ -1,0 +1,10 @@
+HTTP/2.0 200
+Status: 200
+cache-control: max-age=0, no-cache, no-store, must-revalidate
+content-length: 131
+content-type: application/json; charset=utf-8
+content-security-policy: base-uri 'self';block-all-mixed-content;default-src 'self';img-src 'self';object-src 'none';script-src 'none';style-src 'self';upgrade-insecure-requests;
+x-cache: CONFIG_NOCACHE
+x-msedge-ref: Ref A: F1C0240AD68C4688950E67C62A493050 Ref B: MAA02EDGE0308 Ref C: 2024-02-23T04:52:57Z
+date: Fri, 23 Feb 2024 04:52:57 GMT
+

@@ -1,0 +1,13 @@
+[t4]
+FileName1=t4.json
+URL1=https://edge.microsoft.com/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.19045&devicefamily=desktop&installdate=1666087002&clientversion=121.0.2277.128&experimentationmode=2&scpguard=1&scpfull=0&scpver=15
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_4.xml
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+FileName2=t4_generate_204.html
+URL2=http://edge-http.microsoft.com/captiveportal/generate_204
+[ProtocolInfo]
+ProtocolId=QTWeb

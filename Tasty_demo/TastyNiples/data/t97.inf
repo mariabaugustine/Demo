@@ -1,0 +1,13 @@
+[t97]
+FileName1=t97.html
+URL1=http://ocsp.r2m01.amazontrust.com/
+Total=2
+RequestHeaderFile=t97_RequestHeader.txt
+RequestBodyFile=t97_RequestBody.txt
+ResponseHeaderFile=t97_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_97.xml
+FileName2=t97_wabotscript-app.html
+URL2=https://branding-resources.s3.ap-south-1.amazonaws.com/default/bot/shopify/wabotscript-app.js?wa_bot_identifier=c1a778d0cb1e42f1&base_url=https://app.engati.com&brand_name=Engati&shop=tastynibbles.myshopify.com
+[ProtocolInfo]
+ProtocolId=QTWeb

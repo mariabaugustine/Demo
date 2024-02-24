@@ -1,0 +1,11 @@
+[t78]
+FileName1=t78.html
+URL1=https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch
+Total=1
+RequestHeaderFile=t78_RequestHeader.txt
+RequestBodyFile=t78_RequestBody.txt
+ResponseHeaderFile=t78_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_78.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

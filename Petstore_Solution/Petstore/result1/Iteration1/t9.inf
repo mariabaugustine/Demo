@@ -1,0 +1,13 @@
+[t9]
+SnapshotXmlFile=snapshot_9.xml
+ContentType=application/json
+StepName=Custom Request: update
+Total=1
+FileName1=t9.json
+RequestHeaderFile=t9_RequestHeader.txt
+ResponseHeaderFile=t9_ResponseHeader.txt
+RawStepEndTime=1708663979546
+RawStepName=update
+RequestBodyFile=t9_RequestBody.txt
+RawStepStartTime=1708663979402
+URL1=https://edge.microsoft.com/componentupdater/api/v1/update?cup2key=6:Wu5SGMGI-7Y0bw18i7mNpZhfbIvNy3qhjHZOK1Lhs1k&cup2hreq=239c3fc009669e8af997c189154e427202204825ee27f79f860df8d9ce6f0159

@@ -1,0 +1,13 @@
+[t133]
+FileName1=t133_public.htm
+URL1=https://api.razorpay.com/v1/checkout/public?traffic_env=canary&build=d43430ddaebbedea49f590c6812d6bc41f57f7bd&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live&session_token=C8B0F5518E6BA0276F5E527CD969D800F60B55F7F5B698166CEFDFDA3B14ADC0F8DBBF0B3A4385595586445C66EBAEBA9B89950E47956120B6257093E492357A8FC4B3EDD7F45977690A67E529C1951B191CDA0A7458C5EB07BE68264A8AD919FF1FC287D8277B57BBDA19DF380512D886EDA4EFDBA3ECC3163D6CCF1A3712A4D63D6F08DE5060DE63941A2218EEB99E9CACEA
+Total=2
+ContentType=text/html
+SnapshotXmlFile=snapshot_133.xml
+RequestHeaderFile=t133_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t133_ResponseHeader.txt
+FileName2=t133_checkout.css
+URL2=https://checkout-static-next.razorpay.com/build/d43430ddaebbedea49f590c6812d6bc41f57f7bd/css/checkout.css
+[ProtocolInfo]
+ProtocolId=QTWeb

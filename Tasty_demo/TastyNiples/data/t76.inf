@@ -1,0 +1,13 @@
+[t76]
+FileName1=t76.html
+URL1=https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch
+Total=2
+RequestHeaderFile=t76_RequestHeader.txt
+RequestBodyFile=t76_RequestBody.txt
+ResponseHeaderFile=t76_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_76.xml
+FileName2=t76_shopify_common-33bb9d312118840468a53f36b59c62c1e8f2b7d1a0a77250db9e300441827470.html
+URL2=https://www.tastynibbles.in/cdn/shopifycloud/shopify/assets/themes_support/shopify_common-33bb9d312118840468a53f36b59c62c1e8f2b7d1a0a77250db9e300441827470.js
+[ProtocolInfo]
+ProtocolId=QTWeb

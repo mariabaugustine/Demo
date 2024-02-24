@@ -1,0 +1,4 @@
+"{"schema_id":"online_store_buyer_site_abandonment/1.1","payload":{"shop_id":55925866671,"url":"
+""https://www.tastynibbles.in/","navigation_start":1708667523967,"duration":65539,"session_toke"
+"n":"337e62cf-9add-4485-85b7-3c5c337a6162","page_type":"index"},"metadata":{"event_created_at_m"
+"s":1708667589506,"event_sent_at_ms":1708667589506}}"

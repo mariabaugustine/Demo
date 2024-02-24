@@ -1,0 +1,15 @@
+POST /api/shopping/v1/item/search?appid=9A9BEDA6F8ED193BD5F4CF15F865B491175D3D8F&mkt=en-us&uapimkt=en-us&features=enuapimkt HTTP/1.1
+Host: www.bing.com
+Connection: keep-alive
+Content-Length: 1781
+X-MSEdge-AddLogInResponse: 1
+X-FDT-Get: all
+X-Client-PC-Data: eyIxIjoiLTY5MjY2NTgzNjMzNDA0OTQxNzcifQ==
+Content-Type: application/json
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+

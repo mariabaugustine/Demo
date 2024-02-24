@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Feb 2024 06:58:04 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+age: 242
+cache-control: max-age=120,s-maxage=600,stale-while-revalidate=120
+content-encoding: gzip
+etag: W/"83b2b74730a39806b88a0b8ffa2cafd3"
+last-modified: Thu, 15 Feb 2024 17:13:10 GMT
+strict-transport-security: max-age=315360000; includeSubDomains
+timing-allow-origin: https://api.razorpay.com
+vary: Accept-Encoding
+via: 1.1 8db549d367d0865d2cf0abf52ae953e4.cloudfront.net (CloudFront)
+via: rws
+x-amz-cf-id: OQYshUOYNO_NRmcYMvVJ6uhLHKs70W_YJmGNcPh4JGLgGzXLXVV4zg==
+x-amz-cf-pop: PNQ50-P4
+x-amz-server-side-encryption: AES256
+x-cache: Hit from cloudfront
+x-xss-protection: 0
+

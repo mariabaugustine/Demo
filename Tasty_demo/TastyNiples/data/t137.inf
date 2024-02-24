@@ -1,0 +1,13 @@
+[t137]
+FileName1=t137_products.json
+URL1=https://www.tastynibbles.in/collections/canned-sardine/products.json?limit=250
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_137.xml
+RequestHeaderFile=t137_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t137_ResponseHeader.txt
+FileName2=t137_magic-home-b578067f.modern.html
+URL2=https://checkout-static-next.razorpay.com/build/chunks/magic-home-b578067f.modern.js
+[ProtocolInfo]
+ProtocolId=QTWeb

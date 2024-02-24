@@ -1,0 +1,11 @@
+[t188]
+FileName1=t188.txt
+URL1=https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667782709&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=1&dp=%2F&dt=Tasty%20Nibbles%20-%20Ready%20to%20Eat%2C%20Canned%20Tuna%2C%20Fish%20Curries%20and%20more&dl=https%3A%2F%2Fwww.tastynibbles.in%2F&sid=1708667531&sct=1&seg=1&dr=https%3A%2F%2Fwww.tastynibbles.in%2Faccount&en=page_view&_ee=1&tfd=16579
+Total=1
+RequestHeaderFile=t188_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t188_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_188.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

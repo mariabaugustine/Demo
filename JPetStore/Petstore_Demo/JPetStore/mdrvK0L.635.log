@@ -1,0 +1,12 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(48): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(48): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(48): web_url("Catalog.action") was successful, 49136 body bytes, 4247 header bytes  	[MsgId: MMSG-26386]
+Action.c(56): web_image_check started  	[MsgId: MMSG-26355]
+Action.c(56): "Logo Check" succeeded (1 occurrence(s) found. Alt="", Src="../images/logo-topbar.gif")  	[MsgId: MMSG-27192]
+Action.c(56): web_image_check was successful  	[MsgId: MMSG-26392]
+Action.c(58): web_custom_request("json") started  	[MsgId: MMSG-26355]
+Action.c(58): Error -27792: Failed to connect to server "update.googleapis.com:443": [10060] Connection timed out  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

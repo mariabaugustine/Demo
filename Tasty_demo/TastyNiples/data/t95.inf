@@ -1,0 +1,15 @@
+[t95]
+FileName1=t95.html
+URL1=http://r3.o.lencr.org/
+Total=3
+RequestHeaderFile=t95_RequestHeader.txt
+RequestBodyFile=t95_RequestBody.txt
+ResponseHeaderFile=t95_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_95.xml
+FileName2=t95_installed.html
+URL2=https://cdn1.judge.me/assets/installed.js?shop=tastynibbles.myshopify.com
+FileName3=t95_ordersify-shopify.min.html
+URL3=https://cdn.ordersify.com/sdk/v2/ordersify-shopify.min.js?shop=tastynibbles.myshopify.com
+[ProtocolInfo]
+ProtocolId=QTWeb

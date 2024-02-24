@@ -1,0 +1,13 @@
+[t8]
+FileName1=t8.html
+URL1=https://bzib.nelreports.net/api/report?cat=bingbusiness
+Total=2
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_8.xml
+FileName2=t8_js.html
+URL2=https://www.googletagmanager.com/gtag/js?id=G-PBGW9BF7P6
+[ProtocolInfo]
+ProtocolId=QTWeb

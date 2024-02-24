@@ -1,0 +1,13 @@
+[t6]
+FileName1=t6.htm
+URL1=https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-20
+Total=2
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t6_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_6.xml
+FileName2=t6_ChVDaHJvbWUvMTIxLjAuNjE2Ny4xODUSGQnfh7zKjxssDxIFDQKP-2gh3cZDcNVS_yMSGQmqhzwKAeUsPRIFDYiX3QEh3cZDcNVS_yM=.txt
+URL2=https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xODUSGQnfh7zKjxssDxIFDQKP-2gh3cZDcNVS_yMSGQmqhzwKAeUsPRIFDYiX3QEh3cZDcNVS_yM=?alt=proto
+[ProtocolInfo]
+ProtocolId=QTWeb

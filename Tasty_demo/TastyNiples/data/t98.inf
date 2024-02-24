@@ -1,0 +1,13 @@
+[t98]
+FileName1=t98.html
+URL1=http://ocsp.sectigo.com/
+Total=2
+RequestHeaderFile=t98_RequestHeader.txt
+RequestBodyFile=t98_RequestBody.txt
+ResponseHeaderFile=t98_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_98.xml
+FileName2=t98_whatsapp_widget.html
+URL2=https://app.engati.com/static/js/whatsapp_widget.js?config={%22wa_bot_identifier%22:%22c1a778d0cb1e42f1%22,%22server%22:%22https://app.engati.com%22,%22brand%22:%22Engati%22,%22e%22:%22p%22}
+[ProtocolInfo]
+ProtocolId=QTWeb

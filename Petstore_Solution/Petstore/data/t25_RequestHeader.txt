@@ -1,0 +1,16 @@
+POST /api/shopping/v1/telemetry HTTP/1.1
+Host: www.bing.com
+Connection: keep-alive
+Content-Length: 293
+appInfoClientName: Edge
+token: 
+Cookie: ANON=; MUID=3FB288A77D7E6FC13A379A107C2C6E33;_RwBf=r=0&ilt=3&ihpd=0&ispd=1&rc=9&rb=0&gb=0&rg=200&pc=6&mtu=0&rbb=0&g=0&cid=&clo=0&v=1&l=2024-02-21T08:00:00.0000000Z&lft=0001-01-01T00:00:00.0000000&aof=0&o=2&p=&c=&t=0&s=0001-01-01T00:00:00.0000000+00:00&ts=2024-02-22T07:53:48.7006699+00:00&rwred=0&wls=&wlb=&lka=0&lkt=0&TH=&ard=0001-01-01T00:00:00.0000000&rwdbt=0001-01-01T00:00:00.0000000&rwflt=0001-01-01T00:00:00.0000000&wle=&ccp=&aad=0;
+Content-Type: application/json
+X-Client-Data: eyIxIjoiMTUiLCIxMCI6IlwibytLcmZ4UVhyOUExNE9nRDBNa3VKS0ttK2tXa1ZYU3kzZUMzNStGampUMD1cIiIsIjIiOiIxIiwiMyI6IjAiLCI0IjoiLTY5MjY2NTgzNjMzNDA0OTQxNzciLCI1IjoiXCJ2Z1hSYlpJampqTEI5TTduUFdSZHhnRTlWYXJxNG5sRkhaRHE1ZWMyWmNJPVwiIiwiNiI6InN0YWJsZSIsIjciOiI5ODc4NDI0NzgxMCIsIjkiOiJkZXNrdG9wIn0=
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+

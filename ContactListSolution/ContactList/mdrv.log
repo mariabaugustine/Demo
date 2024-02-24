@@ -1,0 +1,158 @@
+Virtual User Script started at: 22-02-2024 15:18:36
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\LoadRunner\ContactListSolution\ContactList\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(12): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(12): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(16): web_add_header("Accept-Language") started  	[MsgId: MMSG-26355]
+vuser_init.c(16): web_add_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+vuser_init.c(19): web_url("thinking-tester-contact-list.herokuapp.com") started  	[MsgId: MMSG-26355]
+vuser_init.c(19): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(19): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(19): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/login.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(19): web_url("thinking-tester-contact-list.herokuapp.com") was successful, 15841 body bytes, 3239 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(28): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(28): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(10): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(10): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(19): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(19): Notify: Parameter Substitution: parameter "Email" =  "mariab@gmail.com"
+Action.c(19): Notify: Parameter Substitution: parameter "Password" =  "9876543210"
+Action.c(19): Notify: Saving Parameter "param_token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ2ZjA4MmYxNTY2NTAwMTNkNGRmYjciLCJpYXQiOjE3MDg1OTY3OTh9.5NP_eCXJm5K58NDA8GXrndQN0d8kAry7GxwpcPHurZQ".
+Action.c(19): web_custom_request("login") was successful, 275 body bytes, 982 header bytes  	[MsgId: MMSG-26386]
+Action.c(30): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(30): Notify: Parameter Substitution: parameter "param_token" =  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ2ZjA4MmYxNTY2NTAwMTNkNGRmYjciLCJpYXQiOjE3MDg1OTY3OTh9.5NP_eCXJm5K58NDA8GXrndQN0d8kAry7GxwpcPHurZQ"
+Action.c(30): Warning -26592: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26592]
+Action.c(30): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(32): web_url("contactList") started  	[MsgId: MMSG-26355]
+Action.c(32): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(32): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(32): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/contactList.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(32): web_url("contactList") was successful, 4709 body bytes, 3185 header bytes  	[MsgId: MMSG-26386]
+Action.c(41): web_custom_request("contacts") started  	[MsgId: MMSG-26355]
+Action.c(41): web_custom_request("contacts") was successful, 1589 body bytes, 752 header bytes  	[MsgId: MMSG-26386]
+Action.c(51): web_remove_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(51): Previous automatically added web header for "Accept-Language" removed  	[MsgId: MMSG-26586]
+Action.c(51): web_remove/revert_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(55): web_custom_request("json") started  	[MsgId: MMSG-26355]
+Action.c(55): Warning: The string '"fp":"1.aeedb246d19256a956fedaa89fb62423ae5bd8855a2a1f3189161cf045645a19"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '9e687236-fbdb-4fe3-93be-e7f944d905ae' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '4877bec4-3083-4e3d-b14e-1767c4edf76d' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.b9685d1e3054ce061c8c804b6e8983c6f62deb37d3882c2de2ef300666e91af3"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '992c6859-5856-4f23-a36f-3951c891fe76' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.fd515ec0dc30d25a09641b8b83729234bc50f4511e35ce17d24fd996252eaace"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '3e836f10-1e5c-4715-91f4-ccec50ee158f' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.4a6508925b2ffec931c1e3931ddeb15ca41d820a8264cd5a962b526e9932bcdf"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '23347e0d-bc08-4fdb-b801-caf97cece4d9' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.c900ba9a2d8318263fd43782ee6fd5fb50bad78bf0eb2c972b5922c458af45ed"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '11da77de-32c9-463a-9761-8b50ed0c7faf' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.04dfbee1ec2fd167512805dedf3fa2a823dc28fe9fa2c97a74e664b38486110f"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '60b09861-1268-42ba-bb60-64bb074fbb54' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.cd1978742a4afdbaaa15bf712d5c90bef4144caa99024df98f6a9ad58043ae85"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '56542005-2e64-408f-9d1b-47900706964a' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.a8a79d350c2a5e3bc36226633a8e0bed0dfab184e77f38fc8f0820ebacf8eafc"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string 'cae36453-bd25-4b5d-af41-c0eb9c1004ab' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.f4f1eb04881095d1cc8f2e1799a8144c10476dc1088a03ecdb4418644040a554"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '3adcc955-20b9-48ed-ae58-f904ded8c5b4' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string 'c322eb0c-0b0f-4324-b6f1-dfb766f88995' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.4ccf4cac4c37dd966d3bee0b3a4137894eecde1b22a9d4e7ef07d5081b5cf67a"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '824201e4-2c10-4878-bd74-cd5cfb75c1c7' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.3a118962ef814c91f6476bb9f0de58afa63103af6ac1b8729be9b39a86789e96"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string 'd99c7a01-7aa1-4efc-bf08-2c30f9061cf3' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.af8fa6822a4a3a4aeaf78dd2b562b3b76ed3ef0b362f8ebc822df79717c996df"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '5610285a-8656-48b1-aeb5-d248b22a431e' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.93bad6a3d7ac28485190495b33735420f459ac0a31f8a958f46f52cdfe1dbd7a"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '4fce43de-ead9-4670-8920-6b7ead6d4423' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.c45cd56a0a8da0883c8f9757b31891d6c628f38cb80724015ffdf33b419a73f3"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string 'dac7b939-785d-48d4-a5ce-41c39d580856' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.c52c62a7c50daf7d3f73ec16977cd4b0ea401710807d5dbe3850941dd1b73a70"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '2127c349-3cb1-467a-9788-22e71f904330' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.94b8a51eb078298283bcc90c1930d2207f263431522df89385d05d4271dc11fa"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '9a173484-cd73-48bb-926b-9a8b516e4cc0' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.545666a4efd056351597bb386aea1368105ededc976ed5650d8682daab9f37ff"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string 'da7fde95-ce3b-43a2-a767-07ee5820efd3' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.630414f6b053d4455bba45e07513742a8bfc72e591f3a010f0e636a83df4eed7"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '966cbd4d-1640-4d03-9f48-bf379d4cb015' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.c64c9c1008f3ba5f6e18b3ca524bc98dcd8acfae0a2720a8f1f3ef0f8d643d05"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '2ef17981-5c4a-48a0-b090-f396b5463f12' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"fp":"1.7e7996864a74a4b8db2b59c559f924f321668848edbcb85386212a4901ef0e6e"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '2e9508fd-6827-471e-8dd0-c2e45881452d' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"avx":true,"physmemory":12,"sse":true,"sse2":true,"sse3":true,"sse41":true,"sse42":true,"ssse3":true' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"arch":"x86_64","platform":"Windows","version":"10.0.19045.3324"' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string 'fec0ce84-cfe7-4b12-91dc-049e122b48b9' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '82de923e-4c2e-41d2-8389-80912a057246' with parameter delimiters is not a parameter.
+Action.c(55): Warning: The string '"autoupdatecheckenabled":true,"ismachine":true,"laststarted":0,"name":"ChromiumUpdater","updatepolicy":-1,"version":"123.0.6288.0"' with parameter delimiters is not a parameter.
+Action.c(55): web_custom_request("json") was successful, 918 body bytes, 1151 header bytes  	[MsgId: MMSG-26386]
+Action.c(88): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(88): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(93): web_url("addContact") started  	[MsgId: MMSG-26355]
+Action.c(93): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/addContact"  	[MsgId: MMSG-26659]
+Action.c(93): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/addContact"  	[MsgId: MMSG-26659]
+Action.c(93): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/addContact.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/addContact"  	[MsgId: MMSG-26659]
+Action.c(93): web_url("addContact") was successful, 4613 body bytes, 3186 header bytes  	[MsgId: MMSG-26386]
+Action.c(104): web_custom_request("contacts_2") started  	[MsgId: MMSG-26355]
+Action.c(104): Warning: The string '"firstName":"Arya","lastName":"a"' with parameter delimiters is not a parameter.
+Action.c(104): web_custom_request("contacts_2") was successful, 111 body bytes, 755 header bytes  	[MsgId: MMSG-26386]
+Action.c(116): web_url("contactList_2") started  	[MsgId: MMSG-26355]
+Action.c(116): Retrieving data from cache for "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26557]
+Action.c(116): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(116): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(116): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/contactList.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(116): web_url("contactList_2") was successful, 0 body bytes, 3107 header bytes  	[MsgId: MMSG-26386]
+Action.c(124): web_custom_request("contacts_3") started  	[MsgId: MMSG-26355]
+Action.c(124): web_custom_request("contacts_3") was successful, 1701 body bytes, 752 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+vuser_end.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+vuser_end.c(11): web_url("logout") started  	[MsgId: MMSG-26355]
+vuser_end.c(11): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/logout"  	[MsgId: MMSG-26659]
+vuser_end.c(11): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/logout.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/logout"  	[MsgId: MMSG-26659]
+vuser_end.c(11): web_url("logout") was successful, 577 body bytes, 2384 header bytes  	[MsgId: MMSG-26386]
+vuser_end.c(20): web_custom_request("logout_2") started  	[MsgId: MMSG-26355]
+vuser_end.c(20): web_custom_request("logout_2") was successful, 0 body bytes, 659 header bytes  	[MsgId: MMSG-26386]
+vuser_end.c(30): web_url("thinking-tester-contact-list.herokuapp.com_2") started  	[MsgId: MMSG-26355]
+vuser_end.c(30): Retrieving data from cache for "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26557]
+vuser_end.c(30): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_end.c(30): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_end.c(30): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/login.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_end.c(30): web_url("thinking-tester-contact-list.herokuapp.com_2") was successful, 0 body bytes, 3107 header bytes  	[MsgId: MMSG-26386]
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 11364), ended OK."

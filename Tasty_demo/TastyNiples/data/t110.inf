@@ -1,0 +1,13 @@
+[t110]
+FileName1=t110_cart.htm
+URL1=https://www.tastynibbles.in/cart?t=1708667599646&view=ajax
+Total=2
+ContentType=text/html
+SnapshotXmlFile=snapshot_110.xml
+RequestHeaderFile=t110_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t110_ResponseHeader.txt
+FileName2=t110_cart.html
+URL2=https://www.tastynibbles.in/cart.js?discos=true
+[ProtocolInfo]
+ProtocolId=QTWeb

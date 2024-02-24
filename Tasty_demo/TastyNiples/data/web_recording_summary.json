@@ -1,0 +1,4439 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-telemetry-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-http-method-override",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-version",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-protocol",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-key",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-extensions",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-gpc",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "dnt",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "date",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "content-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/webp"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/svg+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/avif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff2"
+    },
+    {
+      "IsNonResource": false,
+      "type": "binary/octet-stream"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-protobuf"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-javascript"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/ocsp-response"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 113,
+    "RecordedBrowser": "Firefox",
+    "RecordingDate": "Feb-23-2024",
+    "RecordingDuration": 267328,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1708667521,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 6990019,
+    "TotalBytesSent": 531839,
+    "TotalRequests": 396,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "tastynibbles.in",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "23.227.38.74",
+          "IncludeInScript": true,
+          "Name": "www.tastynibbles.in",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 344,
+              "EventId": 4520,
+              "HttpStatus": 200,
+              "Size": 2945,
+              "URL": "https://www.tastynibbles.in/collections/canned-sardine/products.json?limit=250"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 344,
+              "EventId": 4506,
+              "HttpStatus": 200,
+              "Size": 18835,
+              "URL": "https://www.tastynibbles.in/collections/canned-tuna/products.json?limit=250"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 344,
+              "EventId": 4502,
+              "HttpStatus": 200,
+              "Size": 19528,
+              "URL": "https://www.tastynibbles.in/collections/canned-fish/products.json?limit=250"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 1219,
+              "EventId": 4495,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/apps/discos/wbanner?shop=tastynibbles.myshopify.com"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 1250,
+              "EventId": 4485,
+              "HttpStatus": 200,
+              "Size": 1069,
+              "URL": "https://www.tastynibbles.in/apps/discos/configs?shop=tastynibbles.myshopify.com"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 4471,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 328,
+              "EventId": 4465,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 4462,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 328,
+              "EventId": 4460,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 281,
+              "EventId": 4456,
+              "HttpStatus": 200,
+              "Size": 213,
+              "URL": "https://www.tastynibbles.in/cart.js?discos=true"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 4448,
+              "HttpStatus": 200,
+              "Size": 118,
+              "URL": "https://www.tastynibbles.in/cart?t=1708667783411&view=ajax"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 343,
+              "EventId": 4443,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 110,
+              "EventId": 4364,
+              "HttpStatus": 200,
+              "Size": 1038,
+              "URL": "https://www.tastynibbles.in/checkouts/internal/preloads.js?permanent-domain=tastynibbles.myshopify.com&locale=en-IN"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 46,
+              "EventId": 4345,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/cdn/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 4339,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 672,
+              "EventId": 4260,
+              "HttpStatus": 200,
+              "Size": 101614,
+              "URL": "https://www.tastynibbles.in/"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 906,
+              "EventId": 4235,
+              "HttpStatus": 200,
+              "Size": 1606,
+              "URL": "https://www.tastynibbles.in/search?type=product%2Carticle&options[prefix]=last&q=pickle*"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 859,
+              "EventId": 4231,
+              "HttpStatus": 200,
+              "Size": 1432,
+              "URL": "https://www.tastynibbles.in/search?type=product%2Carticle&options[prefix]=last&q=pickle*"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 828,
+              "EventId": 4227,
+              "HttpStatus": 200,
+              "Size": 1447,
+              "URL": "https://www.tastynibbles.in/search?type=product%2Carticle&options[prefix]=last&q=pickle*"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 578,
+              "EventId": 4224,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/account/logout"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 360,
+              "EventId": 4220,
+              "HttpStatus": 200,
+              "Size": 2232,
+              "URL": "https://www.tastynibbles.in/search/suggest.json?q=pickl&resources[type]=product%2Carticle&resources[limit]=4&resources[options][unavailable_products]=last&resources[options][fields]=title%2Cproduct_type%2Cvariants.title%2Cvendor"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 297,
+              "EventId": 4168,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/collections/canned-sardine/products.json?limit=250"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 4166,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/collections/canned-tuna/products.json?limit=250"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 328,
+              "EventId": 4164,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/collections/canned-fish/products.json?limit=250"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 1203,
+              "EventId": 4159,
+              "HttpStatus": 200,
+              "Size": 1069,
+              "URL": "https://www.tastynibbles.in/apps/discos/configs?shop=tastynibbles.myshopify.com"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 1156,
+              "EventId": 4157,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/apps/discos/wbanner?shop=tastynibbles.myshopify.com"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 313,
+              "EventId": 4135,
+              "HttpStatus": 200,
+              "Size": 172,
+              "URL": "https://www.tastynibbles.in/cart.js?discos=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 359,
+              "EventId": 4133,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 313,
+              "EventId": 4129,
+              "HttpStatus": 200,
+              "Size": 118,
+              "URL": "https://www.tastynibbles.in/cart?t=1708667705265&view=ajax"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 4121,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 343,
+              "EventId": 4119,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 375,
+              "EventId": 4117,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 359,
+              "EventId": 4115,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 63,
+              "EventId": 4113,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/wpm@3698dd31wbfa453bap448c3218md5149de6/web-pixel-shopify-custom-pixel@0575/sandbox/modern/account"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 4111,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/cdn/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 343,
+              "EventId": 4086,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 63,
+              "EventId": 4082,
+              "HttpStatus": 200,
+              "Size": 1038,
+              "URL": "https://www.tastynibbles.in/checkouts/internal/preloads.js?permanent-domain=tastynibbles.myshopify.com&locale=en-IN"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 1828,
+              "EventId": 4070,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/apps/discos/wbanner?shop=tastynibbles.myshopify.com"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 453,
+              "EventId": 4064,
+              "HttpStatus": 200,
+              "Size": 90192,
+              "URL": "https://www.tastynibbles.in/account"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 4062,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/collections/canned-sardine/products.json?limit=250"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 4060,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/collections/canned-tuna/products.json?limit=250"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 4058,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/collections/canned-fish/products.json?limit=250"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 1250,
+              "EventId": 4050,
+              "HttpStatus": 200,
+              "Size": 1069,
+              "URL": "https://www.tastynibbles.in/apps/discos/configs?shop=tastynibbles.myshopify.com"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 375,
+              "EventId": 4009,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 313,
+              "EventId": 4004,
+              "HttpStatus": 200,
+              "Size": 172,
+              "URL": "https://www.tastynibbles.in/cart.js?discos=true"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 360,
+              "EventId": 4000,
+              "HttpStatus": 200,
+              "Size": 118,
+              "URL": "https://www.tastynibbles.in/cart?t=1708667701883&view=ajax"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 3998,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 360,
+              "EventId": 3996,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 3994,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 375,
+              "EventId": 3971,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 3941,
+              "HttpStatus": 200,
+              "Size": 16424,
+              "URL": "https://www.tastynibbles.in/wpm@3698dd31wbfa453bap448c3218md5149de6/web-pixel-shopify-custom-pixel@0575/sandbox/modern/account"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 3937,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/cdn/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 63,
+              "EventId": 3919,
+              "HttpStatus": 200,
+              "Size": 1038,
+              "URL": "https://www.tastynibbles.in/checkouts/internal/preloads.js?permanent-domain=tastynibbles.myshopify.com&locale=en-IN"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 360,
+              "EventId": 3915,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 500,
+              "EventId": 3890,
+              "HttpStatus": 200,
+              "Size": 90178,
+              "URL": "https://www.tastynibbles.in/account"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 344,
+              "EventId": 3788,
+              "HttpStatus": 200,
+              "Size": 2922,
+              "URL": "https://www.tastynibbles.in/collections/canned-sardine/products.json?limit=250"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 391,
+              "EventId": 3786,
+              "HttpStatus": 200,
+              "Size": 18789,
+              "URL": "https://www.tastynibbles.in/collections/canned-tuna/products.json?limit=250"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 344,
+              "EventId": 3780,
+              "HttpStatus": 200,
+              "Size": 19511,
+              "URL": "https://www.tastynibbles.in/collections/canned-fish/products.json?limit=250"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 1219,
+              "EventId": 3765,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/apps/discos/wbanner?shop=tastynibbles.myshopify.com"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 1187,
+              "EventId": 3762,
+              "HttpStatus": 200,
+              "Size": 1069,
+              "URL": "https://www.tastynibbles.in/apps/discos/configs?shop=tastynibbles.myshopify.com"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 297,
+              "EventId": 3728,
+              "HttpStatus": 200,
+              "Size": 171,
+              "URL": "https://www.tastynibbles.in/cart.js?discos=true"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 422,
+              "EventId": 3718,
+              "HttpStatus": 200,
+              "Size": 118,
+              "URL": "https://www.tastynibbles.in/cart?t=1708667651291&view=ajax"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 3716,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 359,
+              "EventId": 3649,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 3645,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 3638,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 3632,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 46,
+              "EventId": 3619,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/wpm@3698dd31wbfa453bap448c3218md5149de6/web-pixel-shopify-custom-pixel@0575/sandbox/modern/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 63,
+              "EventId": 3607,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/cdn/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 3574,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 62,
+              "EventId": 3568,
+              "HttpStatus": 200,
+              "Size": 1038,
+              "URL": "https://www.tastynibbles.in/checkouts/internal/preloads.js?permanent-domain=tastynibbles.myshopify.com&locale=en-IN"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 703,
+              "EventId": 3533,
+              "HttpStatus": 200,
+              "Size": 102109,
+              "URL": "https://www.tastynibbles.in/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 2297,
+              "EventId": 3529,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/account"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 781,
+              "EventId": 3477,
+              "HttpStatus": 200,
+              "Size": 172,
+              "URL": "https://www.tastynibbles.in/cart.js?_=1708667600646"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 328,
+              "EventId": 3472,
+              "HttpStatus": 200,
+              "Size": 172,
+              "URL": "https://www.tastynibbles.in/cart.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 3470,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/v1/produce"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 313,
+              "EventId": 3466,
+              "HttpStatus": 200,
+              "Size": 172,
+              "URL": "https://www.tastynibbles.in/cart.js?_=1708667600645"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 3387,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/collections/canned-sardine/products.json?limit=250"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 297,
+              "EventId": 3384,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/collections/canned-tuna/products.json?limit=250"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 297,
+              "EventId": 3381,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/collections/canned-fish/products.json?limit=250"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 1250,
+              "EventId": 3373,
+              "HttpStatus": 200,
+              "Size": 1069,
+              "URL": "https://www.tastynibbles.in/apps/discos/configs?shop=tastynibbles.myshopify.com"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 1172,
+              "EventId": 3371,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/apps/discos/wbanner?shop=tastynibbles.myshopify.com"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 343,
+              "EventId": 3327,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 313,
+              "EventId": 3324,
+              "HttpStatus": 200,
+              "Size": 171,
+              "URL": "https://www.tastynibbles.in/cart.js?discos=true"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 313,
+              "EventId": 3318,
+              "HttpStatus": 200,
+              "Size": 118,
+              "URL": "https://www.tastynibbles.in/cart?t=1708667599646&view=ajax"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 359,
+              "EventId": 3316,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 360,
+              "EventId": 3314,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 328,
+              "EventId": 3310,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 359,
+              "EventId": 3289,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 3283,
+              "HttpStatus": 200,
+              "Size": 16424,
+              "URL": "https://www.tastynibbles.in/wpm@3698dd31wbfa453bap448c3218md5149de6/web-pixel-shopify-custom-pixel@0575/sandbox/modern/account/register"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 3281,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/cdn/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 3263,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 3256,
+              "HttpStatus": 200,
+              "Size": 1038,
+              "URL": "https://www.tastynibbles.in/checkouts/internal/preloads.js?permanent-domain=tastynibbles.myshopify.com&locale=en-IN"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 3240,
+              "HttpStatus": 200,
+              "Size": 89625,
+              "URL": "https://www.tastynibbles.in/account/register"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 328,
+              "EventId": 3143,
+              "HttpStatus": 200,
+              "Size": 172,
+              "URL": "https://www.tastynibbles.in/cart.js?_=1708667591626"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 328,
+              "EventId": 3060,
+              "HttpStatus": 200,
+              "Size": 172,
+              "URL": "https://www.tastynibbles.in/cart.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 3045,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/v1/produce"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 313,
+              "EventId": 3041,
+              "HttpStatus": 200,
+              "Size": 173,
+              "URL": "https://www.tastynibbles.in/cart.js?_=1708667591625"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 2955,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/collections/canned-sardine/products.json?limit=250"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 2953,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/collections/canned-tuna/products.json?limit=250"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 2951,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/collections/canned-fish/products.json?limit=250"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 1187,
+              "EventId": 2949,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/apps/discos/wbanner?shop=tastynibbles.myshopify.com"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 1187,
+              "EventId": 2945,
+              "HttpStatus": 200,
+              "Size": 1069,
+              "URL": "https://www.tastynibbles.in/apps/discos/configs?shop=tastynibbles.myshopify.com"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 2938,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 2926,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 312,
+              "EventId": 2917,
+              "HttpStatus": 200,
+              "Size": 172,
+              "URL": "https://www.tastynibbles.in/cart.js?discos=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 391,
+              "EventId": 2907,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 344,
+              "EventId": 2902,
+              "HttpStatus": 200,
+              "Size": 118,
+              "URL": "https://www.tastynibbles.in/cart?t=1708667590242&view=ajax"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 328,
+              "EventId": 2900,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 2898,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 328,
+              "EventId": 2881,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 2867,
+              "HttpStatus": 200,
+              "Size": 16424,
+              "URL": "https://www.tastynibbles.in/wpm@3698dd31wbfa453bap448c3218md5149de6/web-pixel-shopify-custom-pixel@0575/sandbox/modern/account/login?return_url=%2Faccount"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 79,
+              "EventId": 2845,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/cdn/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 31,
+              "EventId": 2837,
+              "HttpStatus": 200,
+              "Size": 703,
+              "URL": "https://www.tastynibbles.in/cdn/shopifycloud/shopify/assets/themes_support/shopify_common-33bb9d312118840468a53f36b59c62c1e8f2b7d1a0a77250db9e300441827470.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 329,
+              "EventId": 2832,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 2806,
+              "HttpStatus": 200,
+              "Size": 1038,
+              "URL": "https://www.tastynibbles.in/checkouts/internal/preloads.js?permanent-domain=tastynibbles.myshopify.com&locale=en-IN"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 328,
+              "EventId": 2772,
+              "HttpStatus": 200,
+              "Size": 90145,
+              "URL": "https://www.tastynibbles.in/account/login?return_url=%2Faccount"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 328,
+              "EventId": 2769,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/account"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 46,
+              "EventId": 2765,
+              "HttpStatus": 200,
+              "Size": 14566,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Withouthalal_360x.jpg?v=1701060017"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 2763,
+              "HttpStatus": 200,
+              "Size": 14000,
+              "URL": "https://www.tastynibbles.in/cdn/shop/products/8907093061043_01frontside_360x.jpg?v=1679561858"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 2758,
+              "HttpStatus": 200,
+              "Size": 40468,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/FishBhurji200g_540x.jpg?v=1702114223"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 2753,
+              "HttpStatus": 200,
+              "Size": 42760,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Frontside_19_540x.jpg?v=1693980269"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 2750,
+              "HttpStatus": 200,
+              "Size": 17812,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Backside_1_cbdd4d2f-3e20-4287-9341-4046e7a57947_360x.jpg?v=1699445650"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 2747,
+              "HttpStatus": 200,
+              "Size": 22522,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Frontsideimage_360x.jpg?v=1699445649"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 2744,
+              "HttpStatus": 200,
+              "Size": 16316,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Backside_a232675d-f6d9-4377-a250-5158b2e59b90_360x.jpg?v=1701513098"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 2741,
+              "HttpStatus": 200,
+              "Size": 21036,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/DuckMappas_360x.jpg?v=1699445265"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 141,
+              "EventId": 2316,
+              "HttpStatus": 200,
+              "Size": 2909,
+              "URL": "https://www.tastynibbles.in/collections/canned-sardine/products.json?limit=250"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 141,
+              "EventId": 2306,
+              "HttpStatus": 200,
+              "Size": 18701,
+              "URL": "https://www.tastynibbles.in/collections/canned-tuna/products.json?limit=250"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 140,
+              "EventId": 2293,
+              "HttpStatus": 200,
+              "Size": 19340,
+              "URL": "https://www.tastynibbles.in/collections/canned-fish/products.json?limit=250"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 1031,
+              "EventId": 2244,
+              "HttpStatus": 200,
+              "Size": 1069,
+              "URL": "https://www.tastynibbles.in/apps/discos/configs?shop=tastynibbles.myshopify.com"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 2132,
+              "HttpStatus": 200,
+              "Size": 1966,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Brand_logo_Tasty_nibbles-01_575ef6d1-1653-4b3c-b8fe-e3fb05f76ed1_32x32.png?v=1652345831"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 1094,
+              "EventId": 2058,
+              "HttpStatus": 200,
+              "Size": 303,
+              "URL": "https://www.tastynibbles.in/apps/discos/wbanner?shop=tastynibbles.myshopify.com"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 1015,
+              "EventId": 2042,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://www.tastynibbles.in/apps/discos/location_status?shop=tastynibbles.myshopify.com"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 2032,
+              "HttpStatus": 200,
+              "Size": 31466,
+              "URL": "https://www.tastynibbles.in/cdn/shop/collections/website-1800-x-1800-1_720x.jpg?v=1652336109"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 1970,
+              "HttpStatus": 200,
+              "Size": 46590,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Frontside_e7f15f4c-e926-4631-a1b9-bd770635efe9_720x.jpg?v=1702728997"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 1960,
+              "HttpStatus": 200,
+              "Size": 31732,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Datespickle400g_720x.jpg?v=1693468132"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 1936,
+              "HttpStatus": 200,
+              "Size": 41652,
+              "URL": "https://www.tastynibbles.in/cdn/shop/products/Prawnpicklesilverpouch200g_720x.jpg?v=1682140870"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 78,
+              "EventId": 1927,
+              "HttpStatus": 200,
+              "Size": 62034,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/FishBhurji200g_720x.jpg?v=1702114223"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 1924,
+              "HttpStatus": 200,
+              "Size": 19438,
+              "URL": "https://www.tastynibbles.in/cdn/shop/products/whitemeattunaflakes_720x.jpg?v=1644229841"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 125,
+              "EventId": 1919,
+              "HttpStatus": 200,
+              "Size": 172,
+              "URL": "https://www.tastynibbles.in/cart.js?discos=true"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 1912,
+              "HttpStatus": 200,
+              "Size": 247,
+              "URL": "https://www.tastynibbles.in/cdn-cgi/trace"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 1873,
+              "HttpStatus": 200,
+              "Size": 111836,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Web-Banner-Fish_900x.jpg?v=1704434614"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 1859,
+              "HttpStatus": 200,
+              "Size": 120992,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Convience_RTC_900x.jpg?v=1704434555"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 125,
+              "EventId": 1854,
+              "HttpStatus": 200,
+              "Size": 175432,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Web-Banner-TUNA1_900x.jpg?v=1704434186"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 46,
+              "EventId": 1838,
+              "HttpStatus": 200,
+              "Size": 155926,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/New_launch_900x.jpg?v=1704434676"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 46,
+              "EventId": 1832,
+              "HttpStatus": 200,
+              "Size": 147212,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Web-Banner-Chicken_900x.jpg?v=1704434101"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 140,
+              "EventId": 1809,
+              "HttpStatus": 200,
+              "Size": 118,
+              "URL": "https://www.tastynibbles.in/cart?t=1708667531083&view=ajax"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 359,
+              "EventId": 1276,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 375,
+              "EventId": 1274,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 343,
+              "EventId": 1235,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 328,
+              "EventId": 1231,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 360,
+              "EventId": 1220,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 1216,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 1161,
+              "HttpStatus": 200,
+              "Size": 36330,
+              "URL": "https://www.tastynibbles.in/cdn/shop/products/Pack6_1_354e94cd-f9ee-4051-911c-c8f8998f0f9a_400x.jpg?v=1671703708"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 1158,
+              "HttpStatus": 200,
+              "Size": 19146,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/FrontSide_Cinnamon_400x.jpg?v=1700203722"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 93,
+              "EventId": 1128,
+              "HttpStatus": 200,
+              "Size": 17452,
+              "URL": "https://www.tastynibbles.in/cdn/shop/products/tunaintomato2_400x.jpg?v=1644221401"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/avif",
+              "DownloadTime": 93,
+              "EventId": 1125,
+              "HttpStatus": 200,
+              "Size": 22832,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/New_launch_300x.jpg?v=1704434676"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/avif",
+              "DownloadTime": 46,
+              "EventId": 1107,
+              "HttpStatus": 200,
+              "Size": 28232,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Web-Banner-TUNA1_300x.jpg?v=1704434186"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 46,
+              "EventId": 1102,
+              "HttpStatus": 200,
+              "Size": 25906,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/FishBhurji200g_400x.jpg?v=1702114223"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/avif",
+              "DownloadTime": 47,
+              "EventId": 1098,
+              "HttpStatus": 200,
+              "Size": 23149,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Web-Banner-Chicken_300x.jpg?v=1704434101"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 1095,
+              "HttpStatus": 200,
+              "Size": 18578,
+              "URL": "https://www.tastynibbles.in/cdn/shop/products/8907093060763_01Frontside_400x.jpg?v=1663566067"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 1045,
+              "HttpStatus": 200,
+              "Size": 34270,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/TNImage-01_400x.jpg?v=1693460265"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 1043,
+              "HttpStatus": 200,
+              "Size": 18910,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Frontside_e7f15f4c-e926-4631-a1b9-bd770635efe9_400x.jpg?v=1702728997"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 1040,
+              "HttpStatus": 200,
+              "Size": 34004,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Samudrasadhyaspecial_400x.jpg?v=1702120774"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 1038,
+              "HttpStatus": 200,
+              "Size": 14904,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Datespickle400g_400x.jpg?v=1693468132"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 1036,
+              "HttpStatus": 200,
+              "Size": 17396,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Roastedcoconutpaste_400x.jpg?v=1693655397"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/avif",
+              "DownloadTime": 63,
+              "EventId": 1020,
+              "HttpStatus": 200,
+              "Size": 21261,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Convience_RTC_300x.jpg?v=1704434555"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/avif",
+              "DownloadTime": 63,
+              "EventId": 1001,
+              "HttpStatus": 200,
+              "Size": 4702,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Tasty_Nibbles_Logo_90x.png?v=1652340733"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 63,
+              "EventId": 995,
+              "HttpStatus": 200,
+              "Size": 16357,
+              "URL": "https://www.tastynibbles.in/wpm@3698dd31wbfa453bap448c3218md5149de6/web-pixel-shopify-app-pixel@0575/sandbox/worker.modern.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/avif",
+              "DownloadTime": 63,
+              "EventId": 992,
+              "HttpStatus": 200,
+              "Size": 5153,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Tasty_Nibbles_Logo_100x.png?v=1652340733"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/avif",
+              "DownloadTime": 47,
+              "EventId": 986,
+              "HttpStatus": 200,
+              "Size": 20209,
+              "URL": "https://www.tastynibbles.in/cdn/shop/files/Web-Banner-Fish_300x.jpg?v=1704434614"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 47,
+              "EventId": 981,
+              "HttpStatus": 200,
+              "Size": 16893,
+              "URL": "https://www.tastynibbles.in/wpm@3698dd31wbfa453bap448c3218md5149de6/web-pixel-21037231@39cbab14f2562be67855f852ca0e0f67/sandbox/worker.modern.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 109,
+              "EventId": 931,
+              "HttpStatus": 200,
+              "Size": 22688,
+              "URL": "https://www.tastynibbles.in/cdn/fonts/harmonia_sans/harmoniasans_n6.dd3d6084d29e4754e80fe6aa1c0e37f511474ffa.woff2?h1=dGFzdHluaWJibGVzLmlu&h2=dGFzdHluaWJibGVzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=a7a0d8b76b98542c3b5fdeaf5288e7f5da97e48d170f6ec0206b03811a5740e9"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 78,
+              "EventId": 922,
+              "HttpStatus": 200,
+              "Size": 11855,
+              "URL": "https://www.tastynibbles.in/cdn/shop/t/12/assets/swirl.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 78,
+              "EventId": 920,
+              "HttpStatus": 200,
+              "Size": 17960,
+              "URL": "https://www.tastynibbles.in/cdn/fonts/itc_stepp/itcstepp_n7.cef5242f78dd0b48264b9f0d29ee3573eb745142.woff2?h1=dGFzdHluaWJibGVzLmlu&h2=dGFzdHluaWJibGVzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=0f3b4f4c02bf57220f14f5252b063e6db04449dde6617def7fba1b37662e1bc1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 93,
+              "EventId": 918,
+              "HttpStatus": 200,
+              "Size": 21716,
+              "URL": "https://www.tastynibbles.in/cdn/fonts/harmonia_sans/harmoniasans_n4.73cf0589f7839ec88463a09f5335a2885467ed0c.woff2?h1=dGFzdHluaWJibGVzLmlu&h2=dGFzdHluaWJibGVzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=3534ec91f641c08cf2dc49948f0afce133989e28b219b46f7676e032bbf054fc"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 62,
+              "EventId": 911,
+              "HttpStatus": 200,
+              "Size": 23424,
+              "URL": "https://www.tastynibbles.in/cdn/fonts/harmonia_sans/harmoniasans_i6.d520474355816f56169b3a79baa14d2c479da2ba.woff2?h1=dGFzdHluaWJibGVzLmlu&h2=dGFzdHluaWJibGVzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=a1748412abf67becfadddbf5f0bd2cb6df5e1fdd42927a51c439aec4d87f59eb"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 46,
+              "EventId": 896,
+              "HttpStatus": 200,
+              "Size": 16424,
+              "URL": "https://www.tastynibbles.in/wpm@3698dd31wbfa453bap448c3218md5149de6/web-pixel-shopify-custom-pixel@0575/sandbox/modern/"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 47,
+              "EventId": 739,
+              "HttpStatus": 200,
+              "Size": 18831,
+              "URL": "https://www.tastynibbles.in/cdn/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 62,
+              "EventId": 730,
+              "HttpStatus": 200,
+              "Size": 2920,
+              "URL": "https://www.tastynibbles.in/cdn/shopifycloud/shopify/assets/shop_events_listener-a7c63dba65ccddc484f77541dc8ca437e60e1e9e297fe1c3faebf6523a0ede9b.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 63,
+              "EventId": 716,
+              "HttpStatus": 200,
+              "Size": 26073,
+              "URL": "https://www.tastynibbles.in/cdn/s/trekkie.storefront.4cd2e3324844ec508679a5cd021150832227ceb5.min.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 47,
+              "EventId": 711,
+              "HttpStatus": 200,
+              "Size": 27162,
+              "URL": "https://www.tastynibbles.in/cdn/wpm/b3698dd31wbfa453bap448c3218md5149de6m.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 62,
+              "EventId": 592,
+              "HttpStatus": 200,
+              "Size": 9879,
+              "URL": "https://www.tastynibbles.in/cdn/shop/t/12/assets/sca_affiliate.js?v=2076242293115890491652863580"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 78,
+              "EventId": 430,
+              "HttpStatus": 200,
+              "Size": 42353,
+              "URL": "https://www.tastynibbles.in/cdn/shop/t/12/assets/vendor-scripts-v1.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 62,
+              "EventId": 421,
+              "HttpStatus": 200,
+              "Size": 1038,
+              "URL": "https://www.tastynibbles.in/checkouts/internal/preloads.js?permanent-domain=tastynibbles.myshopify.com&locale=en-IN"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 94,
+              "EventId": 406,
+              "HttpStatus": 200,
+              "Size": 13049,
+              "URL": "https://www.tastynibbles.in/cdn/shopifycloud/shopify/assets/storefront/features-1c0b396bd4d054b94abae1eb6a1bd6ba47beb35525c57a217c77a862ff06d83f.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 63,
+              "EventId": 401,
+              "HttpStatus": 200,
+              "Size": 3623,
+              "URL": "https://www.tastynibbles.in/cdn/shopifycloud/shopify/assets/storefront/load_feature-87876fa245af19cbd14aa886ed59c6aa8a27c45d24dcd7a81cf2d2323506233e.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 47,
+              "EventId": 354,
+              "HttpStatus": 200,
+              "Size": 32435,
+              "URL": "https://www.tastynibbles.in/cdn/shop/t/12/assets/theme.min.js?v=142180294906365401511651758011"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 343,
+              "HttpStatus": 200,
+              "Size": 32379,
+              "URL": "https://www.tastynibbles.in/cdn/shop/t/12/assets/theme.css?v=88179064826295383661708612564"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 141,
+              "EventId": 234,
+              "HttpStatus": 200,
+              "Size": 101091,
+              "URL": "https://www.tastynibbles.in/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "shopifysvc.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.120.57.242",
+          "IncludeInScript": true,
+          "Name": "monorail-edge.shopifysvc.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 281,
+              "EventId": 2911,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://monorail-edge.shopifysvc.com/v1/produce"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "shopify.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "23.227.60.200",
+          "IncludeInScript": true,
+          "Name": "cdn.shopify.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 109,
+              "EventId": 658,
+              "HttpStatus": 200,
+              "Size": 57478,
+              "URL": "https://cdn.shopify.com/extensions/7ba13983-ac7b-4803-aa0a-e6c2af7b2b86/bogo-476/assets/wbogo.min.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 94,
+              "EventId": 654,
+              "HttpStatus": 200,
+              "Size": 7067,
+              "URL": "https://cdn.shopify.com/extensions/7ba13983-ac7b-4803-aa0a-e6c2af7b2b86/bogo-476/assets/wbogo.min.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/javascript",
+              "DownloadTime": 93,
+              "EventId": 647,
+              "HttpStatus": 200,
+              "Size": 5122,
+              "URL": "https://cdn.shopify.com/s/files/1/0194/1736/6592/t/1/assets/ba_tracking.js?v=1637601969"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "shop.app",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "23.227.38.33",
+          "IncludeInScript": true,
+          "Name": "shop.app",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 602,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://shop.app/checkouts/internal/preloads.js?permanent-domain=tastynibbles.myshopify.com&locale=en-IN"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "sentry.io",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.120.195.249",
+          "IncludeInScript": true,
+          "Name": "o515678.ingest.sentry.io",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 141,
+              "EventId": 2729,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://o515678.ingest.sentry.io/api/6398391/envelope/?sentry_key=16be5f91f20c459cbfb51e421f4c9d2f&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.64.0"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "sentry-cdn.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "151.101.2.217",
+          "IncludeInScript": true,
+          "Name": "browser.sentry-cdn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 32,
+              "EventId": 2680,
+              "HttpStatus": 200,
+              "Size": 20968,
+              "URL": "https://browser.sentry-cdn.com/7.64.0/bundle.min.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "sectigo.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.64.149.23",
+          "IncludeInScript": true,
+          "Name": "ocsp.sectigo.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 235,
+              "EventId": 3218,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.sectigo.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": false
+    },
+    {
+      "DomainName": "razorpay.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "18.155.99.106",
+          "IncludeInScript": true,
+          "Name": "magic-plugins.razorpay.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 62,
+              "EventId": 2847,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://magic-plugins.razorpay.com/shopify/magic-shopify.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 79,
+              "EventId": 838,
+              "HttpStatus": 200,
+              "Size": 22684,
+              "URL": "https://magic-plugins.razorpay.com/shopify/magic-shopify.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "65.1.224.62",
+          "IncludeInScript": true,
+          "Name": "lumberjack.razorpay.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 4439,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://lumberjack.razorpay.com/v1/track"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 4385,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://lumberjack.razorpay.com/v1/track"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 32,
+              "EventId": 4149,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://lumberjack.razorpay.com/v1/track"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 32,
+              "EventId": 4123,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://lumberjack.razorpay.com/v1/track"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 4027,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://lumberjack.razorpay.com/v1/track"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 3986,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://lumberjack.razorpay.com/v1/track"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 3742,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://lumberjack.razorpay.com/v1/track"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 63,
+              "EventId": 3724,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://lumberjack.razorpay.com/v1/track"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 3339,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://lumberjack.razorpay.com/v1/track"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 3308,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://lumberjack.razorpay.com/v1/track"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 63,
+              "EventId": 2935,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://lumberjack.razorpay.com/v1/track"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 2893,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://lumberjack.razorpay.com/v1/track"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 2235,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://lumberjack.razorpay.com/v1/track"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 2097,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://lumberjack.razorpay.com/v1/track"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "3.6.248.196",
+          "IncludeInScript": true,
+          "Name": "checkout.razorpay.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 4429,
+              "HttpStatus": 200,
+              "Size": 63374,
+              "URL": "https://checkout.razorpay.com/v1/magic-checkout.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 32,
+              "EventId": 4141,
+              "HttpStatus": 200,
+              "Size": 63418,
+              "URL": "https://checkout.razorpay.com/v1/magic-checkout.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 4019,
+              "HttpStatus": 200,
+              "Size": 63451,
+              "URL": "https://checkout.razorpay.com/v1/magic-checkout.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 3733,
+              "HttpStatus": 200,
+              "Size": 63418,
+              "URL": "https://checkout.razorpay.com/v1/magic-checkout.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 3337,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://checkout.razorpay.com/v1/magic-checkout.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 2928,
+              "HttpStatus": 200,
+              "Size": 63451,
+              "URL": "https://checkout.razorpay.com/v1/magic-checkout.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 2134,
+              "HttpStatus": 200,
+              "Size": 63374,
+              "URL": "https://checkout.razorpay.com/v1/magic-checkout.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "13.249.221.104",
+          "IncludeInScript": true,
+          "Name": "checkout-static-next.razorpay.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 3854,
+              "HttpStatus": 200,
+              "Size": 57542,
+              "URL": "https://checkout-static-next.razorpay.com/build/chunks/magic-home-b578067f.modern.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 344,
+              "EventId": 3784,
+              "HttpStatus": 200,
+              "Size": 599188,
+              "URL": "https://checkout-static-next.razorpay.com/build/d43430ddaebbedea49f590c6812d6bc41f57f7bd/checkout-frame.modern.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 63,
+              "EventId": 3776,
+              "HttpStatus": 200,
+              "Size": 14470,
+              "URL": "https://checkout-static-next.razorpay.com/build/d43430ddaebbedea49f590c6812d6bc41f57f7bd/checkout-frame-standard-lite.modern.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 3756,
+              "HttpStatus": 200,
+              "Size": 65647,
+              "URL": "https://checkout-static-next.razorpay.com/build/d43430ddaebbedea49f590c6812d6bc41f57f7bd/css/checkout.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 94,
+              "EventId": 2649,
+              "HttpStatus": 200,
+              "Size": 4435,
+              "URL": "https://checkout-static-next.razorpay.com/build/chunks/magic-gift-card-banner-5b61002a.modern.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 63,
+              "EventId": 2641,
+              "HttpStatus": 200,
+              "Size": 57542,
+              "URL": "https://checkout-static-next.razorpay.com/build/chunks/magic-home-78961c0e.modern.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 62,
+              "EventId": 2613,
+              "HttpStatus": 200,
+              "Size": 61793,
+              "URL": "https://checkout-static-next.razorpay.com/build/chunks/magic-contact-validator-ed594430.modern.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 63,
+              "EventId": 2606,
+              "HttpStatus": 200,
+              "Size": 9780,
+              "URL": "https://checkout-static-next.razorpay.com/build/chunks/magic-icons-ce1730b4.modern.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 2595,
+              "HttpStatus": 200,
+              "Size": 1238,
+              "URL": "https://checkout-static-next.razorpay.com/build/chunks/565acace.224.checkout.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 2591,
+              "HttpStatus": 200,
+              "Size": 9224,
+              "URL": "https://checkout-static-next.razorpay.com/build/chunks/1c5a4e28.732.checkout.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 62,
+              "EventId": 2552,
+              "HttpStatus": 200,
+              "Size": 14410,
+              "URL": "https://checkout-static-next.razorpay.com/build/c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d/checkout-frame-standard-lite.modern.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 78,
+              "EventId": 2528,
+              "HttpStatus": 200,
+              "Size": 65606,
+              "URL": "https://checkout-static-next.razorpay.com/build/c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d/css/checkout.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 62,
+              "EventId": 2484,
+              "HttpStatus": 200,
+              "Size": 599257,
+              "URL": "https://checkout-static-next.razorpay.com/build/c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d/checkout-frame.modern.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "52.84.205.92",
+          "IncludeInScript": true,
+          "Name": "cdn.razorpay.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "binary/octet-stream",
+              "DownloadTime": 94,
+              "EventId": 2560,
+              "HttpStatus": 200,
+              "Size": 12776,
+              "URL": "https://cdn.razorpay.com/lato.woff2"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "3.108.242.78",
+          "IncludeInScript": true,
+          "Name": "api.razorpay.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 4452,
+              "HttpStatus": 200,
+              "Size": 1255,
+              "URL": "https://api.razorpay.com/v1/checkout/public?traffic_env=production&build=c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live&session_token=711256A3FCF7947F52D105CD2D1BF34331B6FE917FD9526CB06FC534B99B71FCB3D3CF4D99E479749D676405176767A86EC37CF5907E176C574B248DC88608F7A6655D41228CA7260215372ADA950071F598F4A59A9AF927FC8FF730EE6EAFC1CCA85FA55D0DC7FC4D1ADC40F9B3DC8F0A15F443F0BC6FB8DF14440B7087CBEA38E286DD22CF3FF9544A07BF63DD3D356132B7"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 4445,
+              "HttpStatus": 302,
+              "Size": 110,
+              "URL": "https://api.razorpay.com/v1/checkout/public?traffic_env=production&build=c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 46,
+              "EventId": 4153,
+              "HttpStatus": 200,
+              "Size": 1258,
+              "URL": "https://api.razorpay.com/v1/checkout/public?traffic_env=canary&build=d43430ddaebbedea49f590c6812d6bc41f57f7bd&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live&session_token=896A069F7E6C507AE252F20BA0F22C89E6DAF5C5199A8A2BFFC43873CF5C6D0CC48B657132887ACD2D4F55786EB9697CDD043B37595731AA25D3958A51EAA0EBE24A192A8CE06EAFFD42D2F58B7CD2A85867EF0D9F294BDDE0FA866A23519A99B148D443B4ED3A59E6949639471CAD21D9F0A45A87EB908AFB2724E3B42B80C4C45ED495CF92DBC37495F59073249D3FDB8977"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 4151,
+              "HttpStatus": 302,
+              "Size": 110,
+              "URL": "https://api.razorpay.com/v1/checkout/public?traffic_env=canary&build=d43430ddaebbedea49f590c6812d6bc41f57f7bd&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 4031,
+              "HttpStatus": 200,
+              "Size": 1423,
+              "URL": "https://api.razorpay.com/v1/checkout/public?traffic_env=baseline&build=c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live&session_token=5BCDDE6D52BD2DA1A3719EFB88CAF9D9AE03FE69983769CAD8DA64B9E6A06575C03BB93F4D562C10BD9EEDDD56EF964A5AE94C8D332ECBFEC4679F53A2B991D13AA66110D23C3B74BAD82293BC957DFCCEBE43847491EBE4308CE0C0DD17E1FA156FA0DC6E6BE87607D44C5B05700EAC08F685840442C58D895DE0098BFDA9DCCD18F0F0B3404F8F5E5D312CC4768F911EF923"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 4029,
+              "HttpStatus": 302,
+              "Size": 110,
+              "URL": "https://api.razorpay.com/v1/checkout/public?traffic_env=baseline&build=c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 3746,
+              "HttpStatus": 200,
+              "Size": 1255,
+              "URL": "https://api.razorpay.com/v1/checkout/public?traffic_env=canary&build=d43430ddaebbedea49f590c6812d6bc41f57f7bd&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live&session_token=C8B0F5518E6BA0276F5E527CD969D800F60B55F7F5B698166CEFDFDA3B14ADC0F8DBBF0B3A4385595586445C66EBAEBA9B89950E47956120B6257093E492357A8FC4B3EDD7F45977690A67E529C1951B191CDA0A7458C5EB07BE68264A8AD919FF1FC287D8277B57BBDA19DF380512D886EDA4EFDBA3ECC3163D6CCF1A3712A4D63D6F08DE5060DE63941A2218EEB99E9CACEA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 3744,
+              "HttpStatus": 302,
+              "Size": 110,
+              "URL": "https://api.razorpay.com/v1/checkout/public?traffic_env=canary&build=d43430ddaebbedea49f590c6812d6bc41f57f7bd&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 3351,
+              "HttpStatus": 200,
+              "Size": 1207,
+              "URL": "https://api.razorpay.com/v1/checkout/public?traffic_env=baseline&build=c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live&session_token=89A25CE5999DF0662D9AFD1DD3C60C9EE9402D38FE959B6E7FF65EE7FD81FD7BCF2FBD749A0B21CDE50B8A37AA4ECFD1F30C4CE478DFC09587DE91C08F081453ABF0975BD1FFCFBC1A2C376FCF065D55EEA88733D0D06C2391E6A9F6C5426D31951F5943EC8E76878018554E86AFBFCB82665E2D25AD2C4071DED82E5A97F8D390E32143F2A28DB63A3B2F7AA402D4918FB5CB"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 3349,
+              "HttpStatus": 302,
+              "Size": 110,
+              "URL": "https://api.razorpay.com/v1/checkout/public?traffic_env=baseline&build=c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 2942,
+              "HttpStatus": 200,
+              "Size": 1255,
+              "URL": "https://api.razorpay.com/v1/checkout/public?traffic_env=baseline&build=c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live&session_token=23395EF356B8CCDC0A1052E0688A2DF8F651716880C9E04DF21A605E01F24CD9782A9DA369FFB0A9B3CB589FF79E3A70A0FE37783899EBCEEE77AC3CE1FB8546B23A1180F7F3C8EA46B89E72761652D46AAED7BB03ED512DBD58F52BB1F7719D6A73E79919EF466A652B7F27143A80F50E00881F48091799BC4BB408BABA115A4EC203B3089E2447B6F92C2A7EE69FEF2F2DE2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 2940,
+              "HttpStatus": 302,
+              "Size": 110,
+              "URL": "https://api.razorpay.com/v1/checkout/public?traffic_env=baseline&build=c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 156,
+              "EventId": 2562,
+              "HttpStatus": 200,
+              "Size": 5675,
+              "URL": "https://api.razorpay.com/v1/standard_checkout/preferences?session_token=F5A99A5C7D02C1AE8EA0C647BF6D40CCFD7A42075F4FB0F2DF696C86DB77C07DFDE16090AE7B18B6AF30D531812CF90B332AB48458F8A363D83CC26C1C70921218AF10FABB532DD4C8ACA55DEB47E0ED2A4BCF8515F4E380B653735F52D8202289F5FE77147F18982BB4196099E4FD302D0BC824DE91FD1899747221E2B927884D646BB2A4A44241BBAF607A149520A7BBE9E2&currency%5B0%5D=INR&_%5Bpreference_source%5D=checkout_frame_standard_lite&_%5Bbuild%5D=7974256659&_%5Blibrary%5D=checkoutjs&_%5Bplatform%5D=browser&qr_required=true&key_id=rzp_live_UiTUCACnTlsjdB"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 2556,
+              "HttpStatus": 200,
+              "Size": 297,
+              "URL": "https://api.razorpay.com/v1/magic/analytics/configs?key_id=rzp_live_UiTUCACnTlsjdB"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 2367,
+              "HttpStatus": 200,
+              "Size": 1255,
+              "URL": "https://api.razorpay.com/v1/checkout/public?traffic_env=production&build=c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live&session_token=F5A99A5C7D02C1AE8EA0C647BF6D40CCFD7A42075F4FB0F2DF696C86DB77C07DFDE16090AE7B18B6AF30D531812CF90B332AB48458F8A363D83CC26C1C70921218AF10FABB532DD4C8ACA55DEB47E0ED2A4BCF8515F4E380B653735F52D8202289F5FE77147F18982BB4196099E4FD302D0BC824DE91FD1899747221E2B927884D646BB2A4A44241BBAF607A149520A7BBE9E2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 2365,
+              "HttpStatus": 302,
+              "Size": 110,
+              "URL": "https://api.razorpay.com/v1/checkout/public?traffic_env=production&build=c5263b5e5d10b84ea8625c0bd8234ed5ee57d39d&modern=1&unified_lite=1&magic_script=1&merchant_key=rzp_live_UiTUCACnTlsjdB&magic_shopify_key=rzp_live_UiTUCACnTlsjdB&mode=live"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "rapidssl.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "152.195.38.76",
+          "IncludeInScript": true,
+          "Name": "status.rapidssl.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 78,
+              "EventId": 2361,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://status.rapidssl.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "ordersify.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.21.24.2",
+          "IncludeInScript": true,
+          "Name": "cdn.ordersify.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 79,
+              "EventId": 3101,
+              "HttpStatus": 200,
+              "Size": 22918,
+              "URL": "https://cdn.ordersify.com/sdk/v2/ordersify-shopify.min.js?shop=tastynibbles.myshopify.com"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "ocsp.pki.goog",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.182.3",
+          "IncludeInScript": true,
+          "Name": "ocsp.pki.goog",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 3088,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://ocsp.pki.goog/s/gts1p5/8Bhwj7W5uvA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 2635,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://ocsp.pki.goog/gts1c3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 2417,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://ocsp.pki.goog/gts1c3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 2269,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://ocsp.pki.goog/gts1c3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 2256,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://ocsp.pki.goog/gts1c3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 2181,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://ocsp.pki.goog/gts1c3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 2073,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://ocsp.pki.goog/gts1c3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 2012,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://ocsp.pki.goog/gts1c3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 1735,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://ocsp.pki.goog/gts1c3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 1501,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://ocsp.pki.goog/gts1c3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 1297,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://ocsp.pki.goog/gts1c3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 1218,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://ocsp.pki.goog/gts1c3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 1195,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://ocsp.pki.goog/gts1c3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 702,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://ocsp.pki.goog/s/gts1p5/D7oAC4PMyQU"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 624,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://ocsp.pki.goog/s/gts1p5/D7oAC4PMyQU"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "nfcube.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.26.6.155",
+          "IncludeInScript": true,
+          "Name": "cdn.nfcube.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 3147,
+              "HttpStatus": 200,
+              "Size": 6652,
+              "URL": "https://cdn.nfcube.com/5a2dc01fdf22006c0f6dccb9a8c70490.js?shop=tastynibbles.myshopify.com"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.120.208.123",
+          "IncludeInScript": true,
+          "Name": "incoming.telemetry.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 250,
+              "EventId": 2263,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/aebf9e19-4df4-40f1-b5b5-664817c0fb60"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 297,
+              "EventId": 2138,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/2fa1b9bd-a044-4d6e-8d05-6aa19ac853e3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 250,
+              "EventId": 1746,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/257e2757-0a48-462b-bc0c-76195f28a6db"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 266,
+              "EventId": 1476,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/6d395291-0929-47cd-8e97-26911ba72032"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 281,
+              "EventId": 1312,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/4bf60e6c-0651-4dbe-9a84-8a262ec56660"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 281,
+              "EventId": 1190,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/defc83c0-19dc-4af1-ae4b-ddde6fe6a99b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 265,
+              "EventId": 1062,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/7cd25f7e-3669-40fb-98d7-5b1d5ddb1966"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 281,
+              "EventId": 743,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/7b95d0a6-8760-435e-8fef-e8de2c776eaf"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 296,
+              "EventId": 614,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/ac47898f-f265-4daa-ac57-a7016cc29f5d"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 282,
+              "EventId": 425,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/1d795df8-ff7a-4a84-ae0d-6e3f263d7b4a"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.244.181.201",
+          "IncludeInScript": true,
+          "Name": "aus5.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 234,
+              "EventId": 393,
+              "HttpStatus": 200,
+              "Size": 42,
+              "URL": "https://aus5.mozilla.org/update/6/Firefox/123.0/20240213221259/WINNT_x86_64-msvc-x64/en-GB/release/Windows_NT%252010.0.0.0.19045.3324%2520(x64)/ISET%3ASSE4_2%2CMEM%3A12287/default/default/update.xml?force=1"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.160.144.191",
+          "IncludeInScript": true,
+          "Name": "content-signature-2.cdn.mozilla.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 262,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2024-03-20-10-07-03.chain"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.107.243.93",
+          "IncludeInScript": true,
+          "Name": "push.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 335,
+              "HttpStatus": 101,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.149.100.209",
+          "IncludeInScript": true,
+          "Name": "firefox.settings.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 63,
+              "EventId": 324,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-GB"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.117.237.239",
+          "IncludeInScript": true,
+          "Name": "contile.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 250,
+              "EventId": 313,
+              "HttpStatus": 200,
+              "Size": 1012,
+              "URL": "https://contile.services.mozilla.com/v1/tiles"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "merchant-center-analytics.goog",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.196.14",
+          "IncludeInScript": true,
+          "Name": "www.merchant-center-analytics.goog",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 4561,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667782709&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=1&dp=%2F&dt=Tasty%20Nibbles%20-%20Ready%20to%20Eat%2C%20Canned%20Tuna%2C%20Fish%20Curries%20and%20more&dl=https%3A%2F%2Fwww.tastynibbles.in%2F&sid=1708667531&sct=1&seg=1&dr=https%3A%2F%2Fwww.tastynibbles.in%2Faccount&en=page_view&_ee=1&tfd=16579"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 4280,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667704721&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=2&sid=1708667531&sct=1&seg=1&dl=https%3A%2F%2Fwww.tastynibbles.in%2Faccount&dr=https%3A%2F%2Fwww.tastynibbles.in%2Faccount&dt=Account%20%E2%80%93%20Tasty%20Nibbles&en=user_engagement&_et=53652&tfd=78389"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 4182,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667704721&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=1&dp=%2Faccount&dt=Account%20%E2%80%93%20Tasty%20Nibbles&dl=https%3A%2F%2Fwww.tastynibbles.in%2Faccount&sid=1708667531&sct=1&seg=1&dr=https%3A%2F%2Fwww.tastynibbles.in%2Faccount&en=page_view&_ee=1&tfd=6822"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 4072,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667701489&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&dt=Account%20%E2%80%93%20Tasty%20Nibbles&dl=https%3A%2F%2Fwww.tastynibbles.in%2Faccount&sid=1708667531&sct=1&seg=1&dr=https%3A%2F%2Fwww.tastynibbles.in%2F&_s=1&tfd=3847"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 3897,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667650409&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=2&sid=1708667531&sct=1&seg=1&dl=https%3A%2F%2Fwww.tastynibbles.in%2F&dr=https%3A%2F%2Fwww.tastynibbles.in%2Faccount%2Fregister&dt=Tasty%20Nibbles%20-%20Ready%20to%20Eat%2C%20Canned%20Tuna%2C%20Fish%20Curries%20and%20more&en=user_engagement&_et=22262&tfd=54268"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 3856,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667650409&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=1&dp=%2F&dt=Tasty%20Nibbles%20-%20Ready%20to%20Eat%2C%20Canned%20Tuna%2C%20Fish%20Curries%20and%20more&dl=https%3A%2F%2Fwww.tastynibbles.in%2F&sid=1708667531&sct=1&seg=1&dr=https%3A%2F%2Fwww.tastynibbles.in%2Faccount%2Fregister&en=page_view&_ee=1&tfd=9894"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 3542,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667599351&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=2&sid=1708667531&sct=1&seg=1&dl=https%3A%2F%2Fwww.tastynibbles.in%2Faccount%2Fregister&dr=https%3A%2F%2Fwww.tastynibbles.in%2F&dt=Create%20Account%20%E2%80%93%20Tasty%20Nibbles&en=user_engagement&_et=49488&tfd=51285"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 3483,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667599351&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=1&dp=%2Faccount%2Fregister&dt=Create%20Account%20%E2%80%93%20Tasty%20Nibbles&dl=https%3A%2F%2Fwww.tastynibbles.in%2Faccount%2Fregister&sid=1708667531&sct=1&seg=1&dr=https%3A%2F%2Fwww.tastynibbles.in%2F&en=page_view&_ee=1&tfd=6797"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 3245,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667590111&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=2&sid=1708667531&sct=1&seg=1&dl=https%3A%2F%2Fwww.tastynibbles.in%2Faccount%2Flogin%3Freturn_url%3D%252Faccount&dr=https%3A%2F%2Fwww.tastynibbles.in%2F&dt=Account%20%E2%80%93%20Tasty%20Nibbles&en=user_engagement&_et=7917&tfd=9991"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 3233,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667590111&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=1&dp=%2Faccount%2Flogin&dt=Account%20%E2%80%93%20Tasty%20Nibbles&dl=https%3A%2F%2Fwww.tastynibbles.in%2Faccount%2Flogin%3Freturn_url%3D%252Faccount&sid=1708667531&sct=1&seg=1&dr=https%3A%2F%2Fwww.tastynibbles.in%2F&en=page_view&_ee=1&tfd=7080"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 2798,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667528855&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=2&sid=1708667531&sct=1&seg=0&dl=https%3A%2F%2Fwww.tastynibbles.in%2F&dt=Tasty%20Nibbles%20-%20Ready%20to%20Eat%2C%20Canned%20Tuna%2C%20Fish%20Curries%20and%20more&en=user_engagement&_et=9567&tfd=65546"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 2184,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667528855&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=1&dp=%2F&dt=Tasty%20Nibbles%20-%20Ready%20to%20Eat%2C%20Canned%20Tuna%2C%20Fish%20Curries%20and%20more&dl=https%3A%2F%2Fwww.tastynibbles.in%2F&sid=1708667531&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=7819"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "lencr.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "14.98.16.10",
+          "IncludeInScript": true,
+          "Name": "r3.o.lencr.org",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 3968,
+              "HttpStatus": 200,
+              "Size": 503,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 3629,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 32,
+              "EventId": 3091,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 2924,
+              "HttpStatus": 200,
+              "Size": 503,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 63,
+              "EventId": 2883,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 552,
+              "HttpStatus": 200,
+              "Size": 503,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 300,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 32,
+              "EventId": 250,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 46,
+              "EventId": 213,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 211,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 201,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 176,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 32,
+              "EventId": 157,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "14.98.16.11",
+          "IncludeInScript": true,
+          "Name": "e1.o.lencr.org",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 3074,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://e1.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 32,
+              "EventId": 1212,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://e1.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 47,
+              "EventId": 594,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://e1.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 47,
+              "EventId": 587,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://e1.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 32,
+              "EventId": 568,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://e1.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 564,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://e1.o.lencr.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 556,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://e1.o.lencr.org/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "judge.me",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "181.41.142.154",
+          "IncludeInScript": true,
+          "Name": "cdn1.judge.me",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 3095,
+              "HttpStatus": 200,
+              "Size": 58,
+              "URL": "https://cdn1.judge.me/assets/installed.js?shop=tastynibbles.myshopify.com"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googletagmanager.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.182.40",
+          "IncludeInScript": true,
+          "Name": "www.googletagmanager.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 141,
+              "EventId": 1662,
+              "HttpStatus": 200,
+              "Size": 77622,
+              "URL": "https://www.googletagmanager.com/gtag/destination?id=MC-Y41CDBPZ5C&l=dataLayer&cx=c"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 63,
+              "EventId": 1529,
+              "HttpStatus": 200,
+              "Size": 84506,
+              "URL": "https://www.googletagmanager.com/gtag/destination?id=AW-378882101&l=dataLayer&cx=c"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 1484,
+              "HttpStatus": 200,
+              "Size": 94003,
+              "URL": "https://www.googletagmanager.com/gtag/js?id=G-WCN3C8KG6R&l=dataLayer&cx=c"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 94,
+              "EventId": 1295,
+              "HttpStatus": 200,
+              "Size": 46317,
+              "URL": "https://www.googletagmanager.com/gtm.js?id=GTM-5N29RKV"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 1283,
+              "HttpStatus": 200,
+              "Size": 93997,
+              "URL": "https://www.googletagmanager.com/gtag/js?id=G-WCN3C8KG6R"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.195.138",
+          "IncludeInScript": true,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 63,
+              "EventId": 2700,
+              "HttpStatus": 200,
+              "Size": 260,
+              "URL": "https://safebrowsing.googleapis.com/v4/fullHashes:find?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gSGwoNCAUQBhgBIgMwMDEwARDNuhUaAhgKrkw8bhouCAUQARoGCgTr8KquGgYKBFXs_r8aBgoEXsNj3BoGCgR6_d0lGgYKBK-qDgMgAQ=="
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.196.10",
+          "IncludeInScript": true,
+          "Name": "fonts.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 2420,
+              "HttpStatus": 200,
+              "Size": 831,
+              "URL": "https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.196.74",
+          "IncludeInScript": true,
+          "Name": "ajax.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 31,
+              "EventId": 1442,
+              "HttpStatus": 200,
+              "Size": 31021,
+              "URL": "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.195.228",
+          "IncludeInScript": true,
+          "Name": "www.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 234,
+              "EventId": 4499,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.google.com/ccm/conversion/378882101/?random=1708667783458&cv=11&fst=1708667783458&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be42l0za200&gcd=13l3l3l3l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tastynibbles.in%2F&ref=https%3A%2F%2Fwww.tastynibbles.in%2Faccount&label=y2AaCM-DyPoCELWQ1bQB&tiba=Tasty%20Nibbles%20-%20Ready%20to%20Eat%2C%20Canned%20Tuna%2C%20Fish%20Curries%20and%20more&hn=www.google.com&frm=0&gtm_ee=1&npa=0&oid=266227616.1708667783&ecsid=1972507588.1708667647&pscdl=noapi&auid=1028054568.1708667531&ec_mode=a&data=event%3Dpage_view%3Bpage_path%3D%2F&em=tv.1&gcp=1&sscte=1&ct_cookie_present=1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 78,
+              "EventId": 4478,
+              "HttpStatus": 302,
+              "Size": 63,
+              "URL": "https://www.google.com/pagead/1p-conversion/378882101/?random=1708667783458&cv=11&fst=1708667783458&bg=ffffff&guid=ON&async=1&gtm=45be42l0za200&gcd=13l3l3l3l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tastynibbles.in%2F&ref=https%3A%2F%2Fwww.tastynibbles.in%2Faccount&label=y2AaCM-DyPoCELWQ1bQB&tiba=Tasty%20Nibbles%20-%20Ready%20to%20Eat%2C%20Canned%20Tuna%2C%20Fish%20Curries%20and%20more&hn=www.google.com&frm=0&gtm_ee=1&npa=0&oid=266227616.1708667783&ecsid=1972507588.1708667647&pscdl=noapi&auid=1028054568.1708667531&ec_mode=a&data=event%3Dpage_view%3Bpage_path%3D%2F&em=tv.1&gcp=1&sscte=1&ct_cookie_present=1&rfmt=3&fmt=4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 78,
+              "EventId": 2349,
+              "HttpStatus": 302,
+              "Size": 63,
+              "URL": "https://www.google.com/pagead/1p-conversion/378882101/?random=1708667531458&cv=11&fst=1708667531458&bg=ffffff&guid=ON&async=1&gtm=45be42l0za200&gcd=13l3l3l3l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tastynibbles.in%2F&label=y2AaCM-DyPoCELWQ1bQB&tiba=Tasty%20Nibbles%20-%20Ready%20to%20Eat%2C%20Canned%20Tuna%2C%20Fish%20Curries%20and%20more&hn=www.google.com&frm=0&gtm_ee=1&npa=0&pscdl=noapi&auid=1028054568.1708667531&ec_mode=a&data=event%3Dpage_view%3Bpage_path%3D%2F&em=tv.1&gcp=1&sscte=1&ct_cookie_present=1&rfmt=3&fmt=4"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.182.142",
+          "IncludeInScript": true,
+          "Name": "google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 3504,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://google.com/ccm/form-data/378882101?gtm=45be42l0za200&gcd=13l3l3l3l1&dma=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1028054568.1708667531&ec_mode=a&em=tv.1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 3500,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://google.com/pagead/form-data/378882101?gtm=45be42l0za200&gcd=13l3l3l3l1&dma=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1028054568.1708667531"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.239.32.181",
+          "IncludeInScript": true,
+          "Name": "analytics.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 2103,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://analytics.google.com/g/collect?v=2&tid=G-WCN3C8KG6R&gtm=45je42l0v887559890za200&_p=1708667528855&_gaz=1&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=1&dp=%2F&dt=Tasty%20Nibbles%20-%20Ready%20to%20Eat%2C%20Canned%20Tuna%2C%20Fish%20Curries%20and%20more&dl=https%3A%2F%2Fwww.tastynibbles.in%2F&sid=1708667530&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=6970"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.co.in",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.195",
+          "IncludeInScript": true,
+          "Name": "www.google.co.in",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 78,
+              "EventId": 2375,
+              "HttpStatus": 200,
+              "Size": 63,
+              "URL": "https://www.google.co.in/pagead/1p-conversion/378882101/?random=1708667531458&cv=11&fst=1708667531458&bg=ffffff&guid=ON&async=1&gtm=45be42l0za200&gcd=13l3l3l3l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tastynibbles.in%2F&label=y2AaCM-DyPoCELWQ1bQB&tiba=Tasty%20Nibbles%20-%20Ready%20to%20Eat%2C%20Canned%20Tuna%2C%20Fish%20Curries%20and%20more&hn=www.google.com&frm=0&gtm_ee=1&npa=0&pscdl=noapi&auid=1028054568.1708667531&ec_mode=a&data=event%3Dpage_view%3Bpage_path%3D%2F&em=tv.1&gcp=1&sscte=1&ct_cookie_present=1&rfmt=3&fmt=4&ipr=y"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 328,
+              "EventId": 2339,
+              "HttpStatus": 200,
+              "Size": 42,
+              "URL": "https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-WCN3C8KG6R&cid=345955748.1708667531&gtm=45je42l0v887559890za200&aip=1&dma=0&gcd=13l3l3l3l1&npa=0&z=1086446576"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "globalsign.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.18.20.226",
+          "IncludeInScript": true,
+          "Name": "ocsp.globalsign.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 31,
+              "EventId": 2663,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.globalsign.com/ca/gsatlasr3dvtlsca2023q3"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "firefox.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.107.221.82",
+          "IncludeInScript": true,
+          "Name": "detectportal.firefox.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 3464,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 3444,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 3171,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 3123,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 3083,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 46,
+              "EventId": 3023,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 2705,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 2666,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 2482,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 2448,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 2353,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 2299,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 32,
+              "EventId": 2285,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 2233,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 32,
+              "EventId": 2231,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 2152,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 2127,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 46,
+              "EventId": 2062,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 1993,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 1813,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 1453,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 1387,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 1317,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 1233,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 972,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 736,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 173,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 48,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "engati.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "3.6.15.184",
+          "IncludeInScript": true,
+          "Name": "app.engati.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 594,
+              "EventId": 3475,
+              "HttpStatus": 200,
+              "Size": 173,
+              "URL": "https://app.engati.com/webchat_parameters/whatsapp-config/c1a778d0cb1e42f1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 3228,
+              "HttpStatus": 200,
+              "Size": 173,
+              "URL": "https://app.engati.com/webchat_parameters/whatsapp-config/c1a778d0cb1e42f1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 3222,
+              "HttpStatus": 200,
+              "Size": 5065,
+              "URL": "https://app.engati.com/static/js/whatsapp_widget.js?config={%22wa_bot_identifier%22:%22c1a778d0cb1e42f1%22,%22server%22:%22https://app.engati.com%22,%22brand%22:%22Engati%22,%22e%22:%22p%22}"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "digicert.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "152.195.38.76",
+          "IncludeInScript": true,
+          "Name": "ocsp.digicert.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 16,
+              "EventId": 2736,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 203,
+              "EventId": 2725,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 453,
+              "EventId": 359,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 62,
+              "EventId": 331,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.digicert.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "amazontrust.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "18.161.210.238",
+          "IncludeInScript": true,
+          "Name": "ocsp.r2m03.amazontrust.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 469,
+              "EventId": 2506,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.r2m03.amazontrust.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 156,
+              "EventId": 2488,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.r2m03.amazontrust.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 125,
+              "EventId": 2478,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.r2m03.amazontrust.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "18.161.210.238",
+          "IncludeInScript": true,
+          "Name": "ocsp.r2m02.amazontrust.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 438,
+              "EventId": 2198,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.r2m02.amazontrust.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 125,
+              "EventId": 2115,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.r2m02.amazontrust.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 125,
+              "EventId": 2089,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.r2m02.amazontrust.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 484,
+              "EventId": 791,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.r2m02.amazontrust.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "18.161.210.238",
+          "IncludeInScript": true,
+          "Name": "ocsp.r2m01.amazontrust.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 578,
+              "EventId": 3189,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.r2m01.amazontrust.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "amazonaws.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "52.219.158.26",
+          "IncludeInScript": true,
+          "Name": "branding-resources.s3.ap-south-1.amazonaws.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 46,
+              "EventId": 3230,
+              "HttpStatus": 200,
+              "Size": 4377,
+              "URL": "https://branding-resources.s3.ap-south-1.amazonaws.com/bot_files/prod/whatsapp_icon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 3193,
+              "HttpStatus": 200,
+              "Size": 869,
+              "URL": "https://branding-resources.s3.ap-south-1.amazonaws.com/default/bot/shopify/wabotscript-app.js?wa_bot_identifier=c1a778d0cb1e42f1&base_url=https://app.engati.com&brand_name=Engati&shop=tastynibbles.myshopify.com"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "amaicdn.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.26.12.152",
+          "IncludeInScript": true,
+          "Name": "amaicdn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 901,
+              "HttpStatus": 200,
+              "Size": 1681,
+              "URL": "https://amaicdn.com/discountmanager/common.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 32,
+              "EventId": 763,
+              "HttpStatus": 200,
+              "Size": 669562,
+              "URL": "https://amaicdn.com/discountmanager/common.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "10.20.30.1",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "10.20.30.1",
+          "IncludeInScript": true,
+          "Name": "10.20.30.1",
+          "Port": 8090,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 3133,
+              "HttpStatus": 403,
+              "Size": 69677,
+              "URL": "http://10.20.30.1:8090/ips/block/webcat?cat=13&pl=1&lu=0&url=aHR0cDovL29jc3AucGtpLmdvb2cvcy9ndHMxcDUvOEJod2o3VzV1dkE~"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 2659,
+              "HttpStatus": 403,
+              "Size": 69649,
+              "URL": "http://10.20.30.1:8090/ips/block/webcat?cat=13&pl=1&lu=0&url=aHR0cDovL29jc3AucGtpLmdvb2cvZ3RzMWMz"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 2441,
+              "HttpStatus": 403,
+              "Size": 69649,
+              "URL": "http://10.20.30.1:8090/ips/block/webcat?cat=13&pl=1&lu=0&url=aHR0cDovL29jc3AucGtpLmdvb2cvZ3RzMWMz"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 2328,
+              "HttpStatus": 403,
+              "Size": 69649,
+              "URL": "http://10.20.30.1:8090/ips/block/webcat?cat=13&pl=1&lu=0&url=aHR0cDovL29jc3AucGtpLmdvb2cvZ3RzMWMz"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 2314,
+              "HttpStatus": 403,
+              "Size": 69649,
+              "URL": "http://10.20.30.1:8090/ips/block/webcat?cat=13&pl=1&lu=0&url=aHR0cDovL29jc3AucGtpLmdvb2cvZ3RzMWMz"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 2271,
+              "HttpStatus": 403,
+              "Size": 69649,
+              "URL": "http://10.20.30.1:8090/ips/block/webcat?cat=13&pl=1&lu=0&url=aHR0cDovL29jc3AucGtpLmdvb2cvZ3RzMWMz"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 2162,
+              "HttpStatus": 403,
+              "Size": 69649,
+              "URL": "http://10.20.30.1:8090/ips/block/webcat?cat=13&pl=1&lu=0&url=aHR0cDovL29jc3AucGtpLmdvb2cvZ3RzMWMz"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 2078,
+              "HttpStatus": 403,
+              "Size": 69649,
+              "URL": "http://10.20.30.1:8090/ips/block/webcat?cat=13&pl=1&lu=0&url=aHR0cDovL29jc3AucGtpLmdvb2cvZ3RzMWMz"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 1976,
+              "HttpStatus": 403,
+              "Size": 69649,
+              "URL": "http://10.20.30.1:8090/ips/block/webcat?cat=13&pl=1&lu=0&url=aHR0cDovL29jc3AucGtpLmdvb2cvZ3RzMWMz"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 1823,
+              "HttpStatus": 403,
+              "Size": 69649,
+              "URL": "http://10.20.30.1:8090/ips/block/webcat?cat=13&pl=1&lu=0&url=aHR0cDovL29jc3AucGtpLmdvb2cvZ3RzMWMz"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 1429,
+              "HttpStatus": 403,
+              "Size": 69649,
+              "URL": "http://10.20.30.1:8090/ips/block/webcat?cat=13&pl=1&lu=0&url=aHR0cDovL29jc3AucGtpLmdvb2cvZ3RzMWMz"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 1256,
+              "HttpStatus": 403,
+              "Size": 69649,
+              "URL": "http://10.20.30.1:8090/ips/block/webcat?cat=13&pl=1&lu=0&url=aHR0cDovL29jc3AucGtpLmdvb2cvZ3RzMWMz"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 1245,
+              "HttpStatus": 403,
+              "Size": 69649,
+              "URL": "http://10.20.30.1:8090/ips/block/webcat?cat=13&pl=1&lu=0&url=aHR0cDovL29jc3AucGtpLmdvb2cvZ3RzMWMz"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 887,
+              "HttpStatus": 403,
+              "Size": 69677,
+              "URL": "http://10.20.30.1:8090/ips/block/webcat?cat=13&pl=1&lu=0&url=aHR0cDovL29jc3AucGtpLmdvb2cvcy9ndHMxcDUvRDdvQUM0UE15UVU~"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 753,
+              "HttpStatus": 403,
+              "Size": 69677,
+              "URL": "http://10.20.30.1:8090/ips/block/webcat?cat=13&pl=1&lu=0&url=aHR0cDovL29jc3AucGtpLmdvb2cvcy9ndHMxcDUvRDdvQUM0UE15UVU~"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": true
+  },
+  "NumberOfCorrelations": 13
+}

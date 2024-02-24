@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 23 Feb 2024 05:52:19 GMT
+Content-Type: application/json
+Content-Length: 2
+access-control-allow-origin: *
+vary: origin,access-control-request-method,access-control-request-headers
+access-control-expose-headers: x-sentry-error,x-sentry-rate-limits,retry-after
+cross-origin-resource-policy: cross-origin
+x-envoy-upstream-service-time: 10
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

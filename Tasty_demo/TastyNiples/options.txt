@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LoadRunner\Tasty_demo\TastyNiples
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\loadrunner\tasty_demo\tastyniples\\logfile.log
+d:\loadrunner\tasty_demo\tastyniples\\combined_TastyNiples.c
+d:\loadrunner\tasty_demo\tastyniples\\pre_cci.c

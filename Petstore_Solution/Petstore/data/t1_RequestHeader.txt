@@ -1,0 +1,10 @@
+OPTIONS /report/v3?s=uXDEQ6pBXXZpou%2F2VtKTYnNEbXfQH80IG31nhpYjwCK61iCE5bvLAA9wdKw2xk9OJMMkIVRu5RUxIxclkI5f7s6OCl1dLgvsvZScbK%2BEtta0ACDcceUAVG%2FbJu6NukxYpIX39CLbSvlMsA%3D%3D HTTP/1.1
+Host: a.nel.cloudflare.com
+Connection: keep-alive
+Origin: https://jpetstore.aspectran.com
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en;q=0.9
+

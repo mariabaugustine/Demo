@@ -1,0 +1,11 @@
+[t119]
+FileName1=t119.htm
+URL1=https://google.com/pagead/form-data/378882101?gtm=45be42l0za200&gcd=13l3l3l3l1&dma=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1028054568.1708667531
+Total=1
+RequestHeaderFile=t119_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t119_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_119.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

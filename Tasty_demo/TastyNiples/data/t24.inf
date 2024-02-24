@@ -1,0 +1,13 @@
+[t24]
+FileName1=t24.html
+URL1=http://ocsp.r2m02.amazontrust.com/
+Total=2
+RequestHeaderFile=t24_RequestHeader.txt
+RequestBodyFile=t24_RequestBody.txt
+ResponseHeaderFile=t24_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_24.xml
+FileName2=t24_magic-shopify.html
+URL2=https://magic-plugins.razorpay.com/shopify/magic-shopify.js
+[ProtocolInfo]
+ProtocolId=QTWeb

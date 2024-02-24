@@ -1,0 +1,13 @@
+[t184]
+FileName1=t184.json
+URL1=https://www.tastynibbles.in/apps/discos/configs?shop=tastynibbles.myshopify.com
+Total=2
+RequestHeaderFile=t184_RequestHeader.txt
+RequestBodyFile=t184_RequestBody.txt
+ResponseHeaderFile=t184_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_184.xml
+FileName2=t184.txt
+URL2=https://www.google.com/ccm/conversion/378882101/?random=1708667783458&cv=11&fst=1708667783458&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be42l0za200&gcd=13l3l3l3l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tastynibbles.in%2F&ref=https%3A%2F%2Fwww.tastynibbles.in%2Faccount&label=y2AaCM-DyPoCELWQ1bQB&tiba=Tasty%20Nibbles%20-%20Ready%20to%20Eat%2C%20Canned%20Tuna%2C%20Fish%20Curries%20and%20more&hn=www.google.com&frm=0&gtm_ee=1&npa=0&oid=266227616.1708667783&ecsid=1972507588.1708667647&pscdl=noapi&auid=1028054568.1708667531&ec_mode=a&data=event%3Dpage_view%3Bpage_path%3D%2F&em=tv.1&gcp=1&sscte=1&ct_cookie_present=1
+[ProtocolInfo]
+ProtocolId=QTWeb

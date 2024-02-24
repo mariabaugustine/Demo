@@ -1,0 +1,13 @@
+[t135]
+FileName1=t135_products.json
+URL1=https://www.tastynibbles.in/collections/canned-fish/products.json?limit=250
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_135.xml
+RequestHeaderFile=t135_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t135_ResponseHeader.txt
+FileName2=t135_checkout-frame.modern.html
+URL2=https://checkout-static-next.razorpay.com/build/d43430ddaebbedea49f590c6812d6bc41f57f7bd/checkout-frame.modern.js
+[ProtocolInfo]
+ProtocolId=QTWeb

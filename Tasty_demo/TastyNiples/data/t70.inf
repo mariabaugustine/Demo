@@ -1,0 +1,17 @@
+[t70]
+FileName1=t70.htm
+URL1=http://detectportal.firefox.com/canonical.html
+Total=4
+RequestHeaderFile=t70_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t70_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_70.xml
+FileName2=t70_bundle.min.html
+URL2=https://browser.sentry-cdn.com/7.64.0/bundle.min.js
+FileName3=t70_fullHashes_find.html
+URL3=https://safebrowsing.googleapis.com/v4/fullHashes:find?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gSGwoNCAUQBhgBIgMwMDEwARDNuhUaAhgKrkw8bhouCAUQARoGCgTr8KquGgYKBFXs_r8aBgoEXsNj3BoGCgR6_d0lGgYKBK-qDgMgAQ==
+FileName4=t70_success.txt
+URL4=http://detectportal.firefox.com/success.txt?ipv4
+[ProtocolInfo]
+ProtocolId=QTWeb

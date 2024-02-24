@@ -1,0 +1,13 @@
+[t18]
+SnapshotXmlFile=snapshot_18.xml
+ContentType=text/html
+StepName=Custom Request: report_5
+Total=1
+FileName1=t18.html
+RequestHeaderFile=t18_RequestHeader.txt
+ResponseHeaderFile=t18_ResponseHeader.txt
+RawStepEndTime=1708663982529
+RawStepName=report_5
+RequestBodyFile=t18_RequestBody.txt
+RawStepStartTime=1708663982141
+URL1=https://deff.nelreports.net/api/report?cat=msn

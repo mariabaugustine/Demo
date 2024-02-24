@@ -1,0 +1,56 @@
+Virtual User Script started at: 22-02-2024 15:12:52
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\LoadRunner\ContactListSolution\ContactList\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(12): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(12): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(16): web_add_header("Accept-Language") started  	[MsgId: MMSG-26355]
+vuser_init.c(16): web_add_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+vuser_init.c(19): web_url("thinking-tester-contact-list.herokuapp.com") started  	[MsgId: MMSG-26355]
+vuser_init.c(19): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(19): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(19): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/login.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(19): web_url("thinking-tester-contact-list.herokuapp.com") was successful, 15841 body bytes, 3239 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(28): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(28): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(11): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(11): Notify: Parameter Substitution: parameter "Email" =  "mariab@gmail.com"
+Action.c(11): Notify: Parameter Substitution: parameter "Password" =  "9876543210"
+Action.c(11): web_custom_request("login") was successful, 275 body bytes, 982 header bytes  	[MsgId: MMSG-26386]
+Action.c(23): web_url("contactList") started  	[MsgId: MMSG-26355]
+Action.c(23): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(23): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(23): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/contactList.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(23): web_url("contactList") was successful, 4709 body bytes, 3185 header bytes  	[MsgId: MMSG-26386]
+Action.c(32): web_custom_request("contacts") started  	[MsgId: MMSG-26355]
+Action.c(32): Error -26546: Authentication required, please use "web_set_user", e.g. web_set_user("domain\\user", "password", "host:port");  	[MsgId: MERR-26546]
+Action.c(32): Error -26629: HTTP Status-Code=401 (Unauthorized) for "https://thinking-tester-contact-list.herokuapp.com/contacts"  	[MsgId: MERR-26629]
+Action.c(32): web_custom_request("contacts") highest severity level was "ERROR", 32 body bytes, 759 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+vuser_end.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+vuser_end.c(11): web_url("logout") started  	[MsgId: MMSG-26355]
+vuser_end.c(11): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/logout"  	[MsgId: MMSG-26659]
+vuser_end.c(11): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/logout.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/logout"  	[MsgId: MMSG-26659]
+vuser_end.c(11): web_url("logout") was successful, 577 body bytes, 2408 header bytes  	[MsgId: MMSG-26386]
+vuser_end.c(20): web_custom_request("logout_2") started  	[MsgId: MMSG-26355]
+vuser_end.c(20): Error -26546: Authentication required, please use "web_set_user", e.g. web_set_user("domain\\user", "password", "host:port");  	[MsgId: MERR-26546]
+vuser_end.c(20): Error -26629: HTTP Status-Code=401 (Unauthorized) for "https://thinking-tester-contact-list.herokuapp.com/users/logout"  	[MsgId: MERR-26629]
+vuser_end.c(20): web_custom_request("logout_2") highest severity level was "ERROR", 32 body bytes, 767 header bytes  	[MsgId: MMSG-26388]
+Ending action vuser_end.
+Vuser Terminated.

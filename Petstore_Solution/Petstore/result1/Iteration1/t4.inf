@@ -1,0 +1,13 @@
+[t4]
+SnapshotXmlFile=snapshot_4.xml
+ContentType=application/json
+StepName=Url: config.json
+Total=1
+FileName1=t4.json
+RequestHeaderFile=t4_RequestHeader.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+RawStepEndTime=1708663977748
+RawStepName=config.json
+RequestBodyFile=t4_RequestBody.txt
+RawStepStartTime=1708663977504
+URL1=https://edge-consumer-static.azureedge.net/mouse-gesture/config.json

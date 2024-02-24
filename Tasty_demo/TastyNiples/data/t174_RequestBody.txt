@@ -1,0 +1,7 @@
+"{\"metadata\":{\"event_sent_at_ms\":1708667781950},\"events\":[{\"schema_id\":\"web_pixels_man"
+"ager_unload/1.2\",\"payload\":{\"version\":\"0.0.444\",\"bundle_target\":\"modern\",\"page_url"
+"\":\"https://www.tastynibbles.in/account\",\"shop_id\":55925866671,\"surface\":\"storefront-re"
+"nderer\",\"is_completed\":\"true\",\"runtime_error_caught\":\"false\",\"user_can_be_tracked\":"
+"\"true\",\"session_id\":\"b801a662-5b8f-42cc-9f4f-953297cc2dc5\",\"run_time_duration\":354,\"s"
+"tart_time\":984,\"page_duration\":77392},\"metadata\":{\"event_created_at_ms\":1708667781950}}"
+"]}"

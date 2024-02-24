@@ -1,0 +1,13 @@
+[t20]
+FileName1=t20.html
+URL1=http://e1.o.lencr.org/
+Total=2
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=t20_RequestBody.txt
+ResponseHeaderFile=t20_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_20.xml
+FileName2=t20_preloads.html
+URL2=https://shop.app/checkouts/internal/preloads.js?permanent-domain=tastynibbles.myshopify.com&locale=en-IN
+[ProtocolInfo]
+ProtocolId=QTWeb

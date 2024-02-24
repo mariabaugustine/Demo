@@ -1,0 +1,13 @@
+[t9]
+FileName1=t9.txt
+URL1=https://bzib.nelreports.net/api/report?cat=bingbusiness
+Total=2
+RequestHeaderFile=t9_RequestHeader.txt
+RequestBodyFile=t9_RequestBody.txt
+ResponseHeaderFile=t9_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_9.xml
+FileName2=t9_ChVDaHJvbWUvMTIxLjAuMjI3Ny4xMjgSGQkcqxUDnaIpiRIFDQKP-2gpb2mq-zkONR8SGQkZN9tbtPh8ARIFDQKP-2gpb2mq-zkONR8=.txt
+URL2=https://edge.microsoft.com/autofillservice/v1/pages/ChVDaHJvbWUvMTIxLjAuMjI3Ny4xMjgSGQkcqxUDnaIpiRIFDQKP-2gpb2mq-zkONR8SGQkZN9tbtPh8ARIFDQKP-2gpb2mq-zkONR8=?alt=proto
+[ProtocolInfo]
+ProtocolId=QTWeb

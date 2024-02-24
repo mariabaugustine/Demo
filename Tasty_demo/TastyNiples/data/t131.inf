@@ -1,0 +1,15 @@
+[t131]
+FileName1=t131.html
+URL1=https://lumberjack.razorpay.com/v1/track
+Total=3
+RequestHeaderFile=t131_RequestHeader.txt
+RequestBodyFile=t131_RequestBody.txt
+ResponseHeaderFile=t131_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_131.xml
+FileName2=t131_cart.html
+URL2=https://www.tastynibbles.in/cart.js?discos=true
+FileName3=t131_magic-checkout.html
+URL3=https://checkout.razorpay.com/v1/magic-checkout.js
+[ProtocolInfo]
+ProtocolId=QTWeb

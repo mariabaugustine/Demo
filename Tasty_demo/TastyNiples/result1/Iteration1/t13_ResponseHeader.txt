@@ -1,0 +1,16 @@
+HTTP/2.0 200
+Status: 200
+server: nginx
+date: Fri, 23 Feb 2024 06:56:45 GMT
+content-type: text/xml; charset=utf-8
+content-length: 42
+rule-id: 145
+rule-data-version: 558
+strict-transport-security: max-age=31536000;
+x-content-type-options: nosniff
+content-security-policy: default-src 'none'; frame-ancestors 'none'
+x-proxy-cache-status: MISS
+via: 1.1 google
+cache-control: public,max-age=90
+alt-svc: clear
+

@@ -1,0 +1,13 @@
+[t6]
+SnapshotXmlFile=snapshot_6.xml
+ContentType=text/html
+StepName=Custom Request: report
+Total=1
+FileName1=t6.html
+RequestHeaderFile=t6_RequestHeader.txt
+ResponseHeaderFile=t6_ResponseHeader.txt
+RawStepEndTime=1708663978609
+RawStepName=report
+RequestBodyFile=t6_RequestBody.txt
+RawStepStartTime=1708663978164
+URL1=https://bzib.nelreports.net/api/report?cat=bingbusiness

@@ -1,0 +1,15 @@
+[t37]
+FileName1=t37.htm
+URL1=http://detectportal.firefox.com/canonical.html
+Total=3
+RequestHeaderFile=t37_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t37_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_37.xml
+FileName2=t37_jquery.min.html
+URL2=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+FileName3=t37_success.txt
+URL3=http://detectportal.firefox.com/success.txt?ipv4
+[ProtocolInfo]
+ProtocolId=QTWeb

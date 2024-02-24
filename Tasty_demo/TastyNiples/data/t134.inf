@@ -1,0 +1,13 @@
+[t134]
+FileName1=t134.json
+URL1=https://www.tastynibbles.in/apps/discos/configs?shop=tastynibbles.myshopify.com
+Total=2
+RequestHeaderFile=t134_RequestHeader.txt
+RequestBodyFile=t134_RequestBody.txt
+ResponseHeaderFile=t134_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_134.xml
+FileName2=t134_checkout-frame-standard-lite.modern.html
+URL2=https://checkout-static-next.razorpay.com/build/d43430ddaebbedea49f590c6812d6bc41f57f7bd/checkout-frame-standard-lite.modern.js
+[ProtocolInfo]
+ProtocolId=QTWeb

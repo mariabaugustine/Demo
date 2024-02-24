@@ -1,0 +1,11 @@
+[t72]
+FileName1=t72.json
+URL1=https://o515678.ingest.sentry.io/api/6398391/envelope/?sentry_key=16be5f91f20c459cbfb51e421f4c9d2f&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.64.0
+Total=1
+RequestHeaderFile=t72_RequestHeader.txt
+RequestBodyFile=t72_RequestBody.txt
+ResponseHeaderFile=t72_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_72.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

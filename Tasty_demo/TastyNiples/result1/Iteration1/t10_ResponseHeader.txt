@@ -1,0 +1,15 @@
+HTTP/2.0 200
+Status: 200
+server: nginx
+date: Fri, 23 Feb 2024 06:56:42 GMT
+content-type: application/json
+vary: Accept-Encoding
+vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+access-control-expose-headers: content-type, cache-control
+access-control-allow-credentials: true
+cache-control: private, max-age=166, stale-if-error=9769
+strict-transport-security: max-age=31536000
+content-encoding: gzip
+via: 1.1 google
+alt-svc: clear
+

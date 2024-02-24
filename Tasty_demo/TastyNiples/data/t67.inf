@@ -1,0 +1,13 @@
+[t67]
+FileName1=t67_configs.json
+URL1=https://api.razorpay.com/v1/magic/analytics/configs?key_id=rzp_live_UiTUCACnTlsjdB
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_67.xml
+RequestHeaderFile=t67_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t67_ResponseHeader.txt
+FileName2=t67_lato.html
+URL2=https://cdn.razorpay.com/lato.woff2
+[ProtocolInfo]
+ProtocolId=QTWeb

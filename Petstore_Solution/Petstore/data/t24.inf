@@ -1,0 +1,13 @@
+[t24]
+FileName1=t24_find-assets.json
+URL1=https://edge.microsoft.com/entityextractiontemplates/api/v1/assets/find-assets?name=extraction.proactiveProduct.en-us&version=5.*.*&channel=stable&key=d414dd4f9db345fa8003e32adc81b362
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_24.xml
+RequestHeaderFile=t24_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t24_ResponseHeader.txt
+FileName2=t24_asset.html
+URL2=https://edgeassetservice.azureedge.net/assets/extraction.proactiveProduct.en-us/5.12.0/asset?sv=2017-07-29&sr=c&sig=%2Fwp1fD0xo8ywYyo5yFzHEjCMobUSk%2BZ4nmFYB%2FqjsBg%3D&st=2021-01-01T00%3A00%3A00Z&se=2024-05-01T00%3A00%3A00Z&sp=r&assetgroup=EntityExtractionPicl
+[ProtocolInfo]
+ProtocolId=QTWeb

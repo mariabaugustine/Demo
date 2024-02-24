@@ -1,0 +1,56 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: Telemetry.Request",
+                "infFile": "t1.inf",
+                "time": 1708663976887
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: v3",
+                "infFile": "t2.inf",
+                "time": 1708663977359
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: crx",
+                "infFile": "t3.inf",
+                "time": 1708663977502
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: config.json",
+                "infFile": "t4.inf",
+                "time": 1708663977791
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: ExpandedDomainsFilterGlobal.json",
+                "infFile": "t5.inf",
+                "time": 1708663978164
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: report",
+                "infFile": "t6.inf",
+                "time": 1708663978628
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: report_2",
+                "infFile": "t7.inf",
+                "time": 1708663979168
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: collect",
+                "infFile": "t8.inf",
+                "time": 1708663979378
+            }
+        ],
+        "transactions": []
+    }
+]

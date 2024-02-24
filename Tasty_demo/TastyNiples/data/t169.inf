@@ -1,0 +1,11 @@
+[t169]
+FileName1=t169_search.htm
+URL1=https://www.tastynibbles.in/search?type=product%2Carticle&options[prefix]=last&q=pickle*
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_169.xml
+RequestHeaderFile=t169_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t169_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

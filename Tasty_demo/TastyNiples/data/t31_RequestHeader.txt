@@ -1,0 +1,18 @@
+POST /.well-known/shopify/monorail/unstable/produce_batch HTTP/1.1
+Host: www.tastynibbles.in
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 1971
+Origin: https://www.tastynibbles.in
+DNT: 1
+Sec-GPC: 1
+Connection: keep-alive
+Referer: https://www.tastynibbles.in/
+Cookie: keep_alive=68a9331f-37ea-4106-a9b8-5b5f67ba8ed5; secure_customer_sig=; localization=IN; _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D; _tracking_consent=%7B%22lim%22%3A%5B%22CMP%22%5D%2C%22region%22%3A%22INKA%22%2C%22reg%22%3A%22%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22m%22%3A%22%22%2C%22a%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%7D; _shopify_y=8b6f147f-39cc-46df-83e4-6a0f594526ae; _shopify_s=337e62cf-9add-4485-85b7-3c5c337a6162; _orig_referrer=; _landing_page=%2F; _shopify_sa_t=2024-02-23T05%3A52%3A08.857Z; _shopify_sa_p=
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+

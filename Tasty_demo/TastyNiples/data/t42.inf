@@ -1,0 +1,11 @@
+[t42]
+FileName1=t42_location_status.json
+URL1=https://www.tastynibbles.in/apps/discos/location_status?shop=tastynibbles.myshopify.com
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_42.xml
+RequestHeaderFile=t42_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t42_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t36]
+FileName1=t36.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/4bf60e6c-0651-4dbe-9a84-8a262ec56660
+Total=2
+RequestHeaderFile=t36_RequestHeader.txt
+RequestBodyFile=t36_RequestBody.txt
+ResponseHeaderFile=t36_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_36.xml
+FileName2=t36_success.txt
+URL2=http://detectportal.firefox.com/success.txt?ipv4
+[ProtocolInfo]
+ProtocolId=QTWeb

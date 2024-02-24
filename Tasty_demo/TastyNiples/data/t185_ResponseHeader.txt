@@ -1,0 +1,39 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Feb 2024 05:56:26 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Sorting-Hat-PodId: 174
+X-Sorting-Hat-ShopId: 55925866671
+X-Storefront-Renderer-Rendered: 1
+Set-Cookie: secure_customer_sig=; path=/; expires=Sun, 23 Feb 2025 05:56:25 GMT; secure; HttpOnly; SameSite=Lax
+Set-Cookie: _shopify_y=8b6f147f-39cc-46df-83e4-6a0f594526ae; Expires=Sat, 22-Feb-25 05:56:26 GMT; Domain=tastynibbles.in; Path=/; SameSite=Lax
+Set-Cookie: _shopify_s=337e62cf-9add-4485-85b7-3c5c337a6162; Expires=Fri, 23-Feb-24 06:26:26 GMT; Domain=tastynibbles.in; Path=/; SameSite=Lax
+ETag: W/"cacheable:aec0886886cb6fdc3c046b19e9af01b0"
+X-Cache: miss
+X-Frame-Options: DENY
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=7889238
+X-ShopId: 55925866671
+X-ShardId: 174
+Vary: Accept
+Content-Language: en-IN
+powered-by: Shopify
+Server-Timing: processing;dur=51, db;dur=17, edge_cart;desc="count=1";dur=1.29, asn;desc="10029", edge;desc="BLR", country;desc="IN", servedBy;desc="c5n9", requestID;desc="403fb2b3-1b49-4269-bbe8-7a315b263bf0"
+X-Shopify-Stage: production
+X-Dc: gcp-asia-southeast1,gcp-us-central1,gcp-us-central1
+X-Request-ID: 403fb2b3-1b49-4269-bbe8-7a315b263bf0
+X-Download-Options: noopen
+X-XSS-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: none
+X-Content-Type-Options: nosniff
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qA2hhjyxPAeis7DLSbjzXacaah%2BaqyI7eEBK1EJBOOnh3cjyE1uyiugLpgQ1CBXIGcwTMC2HwCDTnE8JeG60AAAIxxXfih0dnUweYcc8OE6gSlCVNdX4wwq7hLDpAxn4MPiwvWc%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server-Timing: cfRequestDuration;dur=338.000059
+Server: cloudflare
+CF-RAY: 859d39bccac01d20-BLR
+Content-Encoding: br
+alt-svc: h3=":443"; ma=86400
+

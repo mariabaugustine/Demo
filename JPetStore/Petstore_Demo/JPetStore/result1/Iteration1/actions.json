@@ -1,0 +1,44 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: Catalog.action",
+                "infFile": "t5.inf",
+                "time": 1708707657196
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: json",
+                "infFile": "t6.inf",
+                "time": 1708707657667
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: Catalog.action;jsessionid=4BEC92598A768F7B356BFE56BE7E86AA",
+                "infFile": "t7.inf",
+                "time": 1708707658398
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Link: Fresh Water fish from China",
+                "infFile": "t8.inf",
+                "time": 1708707658756
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Link: Add to Cart",
+                "infFile": "t9.inf",
+                "time": 1708707658972
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Link: Proceed to Checkout",
+                "infFile": "t10.inf",
+                "time": 1708707659191
+            }
+        ],
+        "transactions": []
+    }
+]

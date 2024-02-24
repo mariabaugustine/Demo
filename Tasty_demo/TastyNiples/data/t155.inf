@@ -1,0 +1,13 @@
+[t155]
+FileName1=t155.txt
+URL1=https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667701489&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&dt=Account%20%E2%80%93%20Tasty%20Nibbles&dl=https%3A%2F%2Fwww.tastynibbles.in%2Faccount&sid=1708667531&sct=1&seg=1&dr=https%3A%2F%2Fwww.tastynibbles.in%2F&_s=1&tfd=3847
+Total=2
+RequestHeaderFile=t155_RequestHeader.txt
+RequestBodyFile=t155_RequestBody.txt
+ResponseHeaderFile=t155_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_155.xml
+FileName2=t155_preloads.html
+URL2=https://www.tastynibbles.in/checkouts/internal/preloads.js?permanent-domain=tastynibbles.myshopify.com&locale=en-IN
+[ProtocolInfo]
+ProtocolId=QTWeb

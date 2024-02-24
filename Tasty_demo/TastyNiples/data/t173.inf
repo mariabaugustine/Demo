@@ -1,0 +1,11 @@
+[t173]
+FileName1=t173.txt
+URL1=https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-Y41CDBPZ5C&gtm=45ve42l0v9122332314za200&_p=1708667704721&gcd=13l3l3l3l1&npa=0&dma=0&cid=345955748.1708667531&ul=en-gb&sr=1280x720&pscdl=noapi&_s=2&sid=1708667531&sct=1&seg=1&dl=https%3A%2F%2Fwww.tastynibbles.in%2Faccount&dr=https%3A%2F%2Fwww.tastynibbles.in%2Faccount&dt=Account%20%E2%80%93%20Tasty%20Nibbles&en=user_engagement&_et=53652&tfd=78389
+Total=1
+RequestHeaderFile=t173_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t173_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_173.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

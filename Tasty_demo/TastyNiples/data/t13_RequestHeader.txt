@@ -1,0 +1,11 @@
+GET /update/6/Firefox/123.0/20240213221259/WINNT_x86_64-msvc-x64/en-GB/release/Windows_NT%252010.0.0.0.19045.3324%2520(x64)/ISET%3ASSE4_2%2CMEM%3A12287/default/default/update.xml?force=1 HTTP/1.1
+Host: aus5.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+Cookie: _ga_MQ7767QQQW=GS1.1.1708665488.1.0.1708665504.0.0.0; _ga=GA1.2.213670173.1708665488; _gid=GA1.2.2006108704.1708665488
+

@@ -1,0 +1,452 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: canonical.html",
+                "infFile": "t1.inf",
+                "time": 1708671400612
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: tiles",
+                "infFile": "t10.inf",
+                "time": 1708671403025
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: update.xml",
+                "infFile": "t13.inf",
+                "time": 1708671405347
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: 1d795df8-ff7a-4a84-ae0d-6e3f263d7b4a",
+                "infFile": "t14.inf",
+                "time": 1708671405776
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: ac47898f-f265-4daa-ac57-a7016cc29f5d",
+                "infFile": "t21.inf",
+                "time": 1708671406965
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: canonical.html_2",
+                "infFile": "t22.inf",
+                "time": 1708671407671
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: 7b95d0a6-8760-435e-8fef-e8de2c776eaf",
+                "infFile": "t23.inf",
+                "time": 1708671408021
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: 7cd25f7e-3669-40fb-98d7-5b1d5ddb1966",
+                "infFile": "t26.inf",
+                "time": 1708671409135
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: defc83c0-19dc-4af1-ae4b-ddde6fe6a99b",
+                "infFile": "t27.inf",
+                "time": 1708671409510
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: canonical.html_3",
+                "infFile": "t32.inf",
+                "time": 1708671411557
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: 4bf60e6c-0651-4dbe-9a84-8a262ec56660",
+                "infFile": "t36.inf",
+                "time": 1708671413248
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: canonical.html_4",
+                "infFile": "t37.inf",
+                "time": 1708671413943
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Custom Request: 6d395291-0929-47cd-8e97-26911ba72032",
+                "infFile": "t38.inf",
+                "time": 1708671414350
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Custom Request: 257e2757-0a48-462b-bc0c-76195f28a6db",
+                "infFile": "t39.inf",
+                "time": 1708671414683
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: canonical.html_5",
+                "infFile": "t41.inf",
+                "time": 1708671415736
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: location_status",
+                "infFile": "t42.inf",
+                "time": 1708671416781
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: wbanner",
+                "infFile": "t43.inf",
+                "time": 1708671417882
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: canonical.html_6",
+                "infFile": "t44.inf",
+                "time": 1708671418566
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Custom Request: ocsp.r2m02.amazontrust.com_2",
+                "infFile": "t46.inf",
+                "time": 1708671418679
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Custom Request: collect",
+                "infFile": "t48.inf",
+                "time": 1708671419190
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Custom Request: 2fa1b9bd-a044-4d6e-8d05-6aa19ac853e3",
+                "infFile": "t49.inf",
+                "time": 1708671419565
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Url: canonical.html_7",
+                "infFile": "t50.inf",
+                "time": 1708671420360
+            },
+            {
+                "stepId": "STEP23",
+                "stepName": "Custom Request: collect_2",
+                "infFile": "t51.inf",
+                "time": 1708671420898
+            },
+            {
+                "stepId": "STEP24",
+                "stepName": "Url: canonical.html_8",
+                "infFile": "t53.inf",
+                "time": 1708671421635
+            },
+            {
+                "stepId": "STEP25",
+                "stepName": "Submit Data: configs",
+                "infFile": "t55.inf",
+                "time": 1708671422993
+            },
+            {
+                "stepId": "STEP26",
+                "stepName": "Custom Request: aebf9e19-4df4-40f1-b5b5-664817c0fb60",
+                "infFile": "t56.inf",
+                "time": 1708671423335
+            },
+            {
+                "stepId": "STEP27",
+                "stepName": "Url: products.json",
+                "infFile": "t57.inf",
+                "time": 1708671423572
+            },
+            {
+                "stepId": "STEP28",
+                "stepName": "Url: canonical.html_9",
+                "infFile": "t58.inf",
+                "time": 1708671424202
+            },
+            {
+                "stepId": "STEP29",
+                "stepName": "Url: products.json_2",
+                "infFile": "t59.inf",
+                "time": 1708671424439
+            },
+            {
+                "stepId": "STEP30",
+                "stepName": "Url: products.json_3",
+                "infFile": "t60.inf",
+                "time": 1708671424779
+            },
+            {
+                "stepId": "STEP31",
+                "stepName": "Url: public",
+                "infFile": "t63.inf",
+                "time": 1708671425516
+            },
+            {
+                "stepId": "STEP32",
+                "stepName": "Url: canonical.html_10",
+                "infFile": "t64.inf",
+                "time": 1708671426191
+            },
+            {
+                "stepId": "STEP33",
+                "stepName": "Url: configs_2",
+                "infFile": "t68.inf",
+                "time": 1708671428105
+            },
+            {
+                "stepId": "STEP34",
+                "stepName": "Url: preferences",
+                "infFile": "t69.inf",
+                "time": 1708671428451
+            },
+            {
+                "stepId": "STEP35",
+                "stepName": "Url: canonical.html_11",
+                "infFile": "t71.inf",
+                "time": 1708671430459
+            },
+            {
+                "stepId": "STEP36",
+                "stepName": "Custom Request: envelope",
+                "infFile": "t73.inf",
+                "time": 1708671431131
+            },
+            {
+                "stepId": "STEP37",
+                "stepName": "Custom Request: collect_3",
+                "infFile": "t76.inf",
+                "time": 1708671432844
+            },
+            {
+                "stepId": "STEP38",
+                "stepName": "Url: public_2",
+                "infFile": "t91.inf",
+                "time": 1708671441884
+            },
+            {
+                "stepId": "STEP39",
+                "stepName": "Submit Data: configs_3",
+                "infFile": "t92.inf",
+                "time": 1708671442995
+            },
+            {
+                "stepId": "STEP40",
+                "stepName": "Url: canonical.html_12",
+                "infFile": "t93.inf",
+                "time": 1708671443658
+            },
+            {
+                "stepId": "STEP41",
+                "stepName": "Url: canonical.html_13",
+                "infFile": "t97.inf",
+                "time": 1708671445153
+            },
+            {
+                "stepId": "STEP42",
+                "stepName": "Url: c1a778d0cb1e42f1",
+                "infFile": "t100.inf",
+                "time": 1708671446651
+            },
+            {
+                "stepId": "STEP43",
+                "stepName": "Custom Request: collect_4",
+                "infFile": "t101.inf",
+                "time": 1708671446745
+            },
+            {
+                "stepId": "STEP44",
+                "stepName": "Custom Request: collect_5",
+                "infFile": "t103.inf",
+                "time": 1708671448035
+            },
+            {
+                "stepId": "STEP45",
+                "stepName": "Url: public_3",
+                "infFile": "t114.inf",
+                "time": 1708671451452
+            },
+            {
+                "stepId": "STEP46",
+                "stepName": "Submit Data: configs_4",
+                "infFile": "t115.inf",
+                "time": 1708671452553
+            },
+            {
+                "stepId": "STEP47",
+                "stepName": "Url: canonical.html_14",
+                "infFile": "t116.inf",
+                "time": 1708671453319
+            },
+            {
+                "stepId": "STEP48",
+                "stepName": "Url: c1a778d0cb1e42f1_2",
+                "infFile": "t118.inf",
+                "time": 1708671453938
+            },
+            {
+                "stepId": "STEP49",
+                "stepName": "Custom Request: collect_6",
+                "infFile": "t119.inf",
+                "time": 1708671454038
+            },
+            {
+                "stepId": "STEP50",
+                "stepName": "Custom Request: 378882101",
+                "infFile": "t120.inf",
+                "time": 1708671454397
+            },
+            {
+                "stepId": "STEP51",
+                "stepName": "Custom Request: 378882101_2",
+                "infFile": "t121.inf",
+                "time": 1708671454504
+            },
+            {
+                "stepId": "STEP52",
+                "stepName": "Custom Request: collect_7",
+                "infFile": "t123.inf",
+                "time": 1708671456379
+            },
+            {
+                "stepId": "STEP53",
+                "stepName": "Url: public_4",
+                "infFile": "t134.inf",
+                "time": 1708671460258
+            },
+            {
+                "stepId": "STEP54",
+                "stepName": "Submit Data: configs_5",
+                "infFile": "t135.inf",
+                "time": 1708671461625
+            },
+            {
+                "stepId": "STEP55",
+                "stepName": "Url: products.json_4",
+                "infFile": "t136.inf",
+                "time": 1708671462416
+            },
+            {
+                "stepId": "STEP56",
+                "stepName": "Url: products.json_5",
+                "infFile": "t137.inf",
+                "time": 1708671463072
+            },
+            {
+                "stepId": "STEP57",
+                "stepName": "Url: products.json_6",
+                "infFile": "t138.inf",
+                "time": 1708671463419
+            },
+            {
+                "stepId": "STEP58",
+                "stepName": "Custom Request: collect_8",
+                "infFile": "t139.inf",
+                "time": 1708671463526
+            },
+            {
+                "stepId": "STEP59",
+                "stepName": "Custom Request: collect_9",
+                "infFile": "t141.inf",
+                "time": 1708671464982
+            },
+            {
+                "stepId": "STEP60",
+                "stepName": "Url: account_4",
+                "infFile": "t143.inf",
+                "time": 1708671465531
+            },
+            {
+                "stepId": "STEP61",
+                "stepName": "Url: public_5",
+                "infFile": "t153.inf",
+                "time": 1708671468295
+            },
+            {
+                "stepId": "STEP62",
+                "stepName": "Submit Data: configs_6",
+                "infFile": "t154.inf",
+                "time": 1708671469550
+            },
+            {
+                "stepId": "STEP63",
+                "stepName": "Custom Request: collect_10",
+                "infFile": "t156.inf",
+                "time": 1708671470992
+            },
+            {
+                "stepId": "STEP64",
+                "stepName": "Url: public_6",
+                "infFile": "t166.inf",
+                "time": 1708671474403
+            },
+            {
+                "stepId": "STEP65",
+                "stepName": "Submit Data: configs_7",
+                "infFile": "t167.inf",
+                "time": 1708671476189
+            },
+            {
+                "stepId": "STEP66",
+                "stepName": "Custom Request: collect_11",
+                "infFile": "t168.inf",
+                "time": 1708671476291
+            },
+            {
+                "stepId": "STEP67",
+                "stepName": "Url: suggest.json",
+                "infFile": "t169.inf",
+                "time": 1708671476706
+            },
+            {
+                "stepId": "STEP68",
+                "stepName": "Custom Request: collect_12",
+                "infFile": "t174.inf",
+                "time": 1708671482978
+            },
+            {
+                "stepId": "STEP69",
+                "stepName": "Url: public_7",
+                "infFile": "t180.inf",
+                "time": 1708671484785
+            },
+            {
+                "stepId": "STEP70",
+                "stepName": "Submit Data: configs_8",
+                "infFile": "t185.inf",
+                "time": 1708671487865
+            },
+            {
+                "stepId": "STEP71",
+                "stepName": "Url: products.json_7",
+                "infFile": "t186.inf",
+                "time": 1708671488519
+            },
+            {
+                "stepId": "STEP72",
+                "stepName": "Url: products.json_8",
+                "infFile": "t187.inf",
+                "time": 1708671489147
+            },
+            {
+                "stepId": "STEP73",
+                "stepName": "Url: products.json_9",
+                "infFile": "t188.inf",
+                "time": 1708671489529
+            },
+            {
+                "stepId": "STEP74",
+                "stepName": "Custom Request: collect_13",
+                "infFile": "t189.inf",
+                "time": 1708671489649
+            }
+        ],
+        "transactions": []
+    }
+]

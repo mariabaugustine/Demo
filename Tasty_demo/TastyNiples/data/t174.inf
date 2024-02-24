@@ -1,0 +1,13 @@
+[t174]
+FileName1=t174.html
+URL1=https://www.tastynibbles.in/.well-known/shopify/monorail/unstable/produce_batch
+Total=2
+RequestHeaderFile=t174_RequestHeader.txt
+RequestBodyFile=t174_RequestBody.txt
+ResponseHeaderFile=t174_ResponseHeader.txt
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_174.xml
+FileName2=t174_preloads.html
+URL2=https://www.tastynibbles.in/checkouts/internal/preloads.js?permanent-domain=tastynibbles.myshopify.com&locale=en-IN
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t8]
+SnapshotXmlFile=snapshot_8.xml
+ContentType=text/html
+StepName=Custom Request: collect
+Total=1
+FileName1=t8.html
+RequestHeaderFile=t8_RequestHeader.txt
+ResponseHeaderFile=t8_ResponseHeader.txt
+RawStepEndTime=1708663979354
+RawStepName=collect
+RequestBodyFile=t8_RequestBody.txt
+RawStepStartTime=1708663979169
+URL1=https://www.google-analytics.com/g/collect?v=2&tid=G-PBGW9BF7P6&gtm=45je42l0v877866951za200&_p=1708663350769&gcd=13l3l3l3l1&npa=0&dma=0&cid=518544715.1708663351&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not%20A(Brand;99.0.0.0|Microsoft%20Edge;121.0.2277.128|Chromium;121.0.6167.184&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&pscdl=noapi&_s=1&sid=1708663351&sct=1&seg=0&dl=https://jpetstore.aspectran.com/catalog/&dt=JPetStore Demo&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=32952
